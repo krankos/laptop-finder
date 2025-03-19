@@ -23,9 +23,10 @@ import { createDocument } from '@/lib/ai/tools/create-document';
 import { updateDocument } from '@/lib/ai/tools/update-document';
 import { requestSuggestions } from '@/lib/ai/tools/request-suggestions';
 import { getWeather } from '@/lib/ai/tools/get-weather';
+import { getAllProducts, fetchCategoryFilters, applyFilters, getFilters, getProductDetails, searchProducts } from '@/lib/ai/tools/get-laptops-tunisianet';
 import { isProductionEnvironment } from '@/lib/constants';
 import { myProvider } from '@/lib/ai/providers';
-
+import { AISDKExporter } from 'langsmith/vercel';
 export const maxDuration = 60;
 
 export async function POST(request: Request) {
@@ -94,11 +95,23 @@ export async function POST(request: Request) {
                   'createDocument',
                   'updateDocument',
                   'requestSuggestions',
+                  'getAllProducts',
+                  'fetchCategoryFilters',
+                  'applyFilters',
+                  'getFilters',
+                  'getProductDetails',
+                  'searchProducts',
                 ],
           experimental_transform: smoothStream({ chunking: 'word' }),
           experimental_generateMessageId: generateUUID,
           tools: {
             getWeather,
+            getAllProducts,
+            fetchCategoryFilters,
+            applyFilters,
+            getFilters,
+            getProductDetails,
+            searchProducts,
             createDocument: createDocument({ session, dataStream }),
             updateDocument: updateDocument({ session, dataStream }),
             requestSuggestions: requestSuggestions({
@@ -142,10 +155,11 @@ export async function POST(request: Request) {
               }
             }
           },
-          experimental_telemetry: {
-            isEnabled: isProductionEnvironment,
-            functionId: 'stream-text',
+          onError: (error: unknown) => {
+            console.error('Error in chat', error);
           },
+          experimental_telemetry: AISDKExporter.getSettings(
+          )
         });
 
         result.consumeStream();

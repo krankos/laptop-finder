@@ -19,6 +19,8 @@ import { MessageEditor } from './message-editor';
 import { DocumentPreview } from './document-preview';
 import { MessageReasoning } from './message-reasoning';
 import { UseChatHelpers } from '@ai-sdk/react';
+import { ProductDetailSkeleton, ProductGridSkeleton, ProductSearchSkeleton } from './product-skeleton';
+import { ProductGrid, ProductDetail } from './product-display';
 
 const PurePreviewMessage = ({
   chatId,
@@ -153,11 +155,15 @@ const PurePreviewMessage = ({
                 if (state === 'call') {
                   const { args } = toolInvocation;
 
+                  // Define product-related tool names
+                  const productSearchTools = ['searchProducts', 'getAllProducts', 'applyFilters', 'fetchCategoryFilters'];
+                  const productDetailTools = ['getProductDetails'];
+
                   return (
                     <div
                       key={toolCallId}
                       className={cx({
-                        skeleton: ['getWeather'].includes(toolName),
+                        skeleton: ['getWeather', ...productSearchTools, ...productDetailTools].includes(toolName),
                       })}
                     >
                       {toolName === 'getWeather' ? (
@@ -176,6 +182,10 @@ const PurePreviewMessage = ({
                           args={args}
                           isReadonly={isReadonly}
                         />
+                      ) : productSearchTools.includes(toolName) ? (
+                        <ProductSearchSkeleton />
+                      ) : productDetailTools.includes(toolName) ? (
+                        <ProductDetailSkeleton />
                       ) : null}
                     </div>
                   );
@@ -183,6 +193,8 @@ const PurePreviewMessage = ({
 
                 if (state === 'result') {
                   const { result } = toolInvocation;
+                  const productDetailTools = ['getProductDetails'];
+                  const productSearchTools = ['searchProducts', 'getAllProducts', 'applyFilters', 'fetchCategoryFilters'];
 
                   return (
                     <div key={toolCallId}>
@@ -205,6 +217,24 @@ const PurePreviewMessage = ({
                           result={result}
                           isReadonly={isReadonly}
                         />
+                      ) : productDetailTools.includes(toolName) ? (
+                        <ProductDetail product={result} />
+                      ) : productSearchTools.includes(toolName) ? (
+                        <>
+                          {result.totalProducts && (
+                            <div className="mb-4 text-sm flex justify-between items-center">
+                              <span>Found {result.totalProducts} products</span>
+                              {result.totalProducts > 5 && (
+                                <span className="text-xs text-muted-foreground">Showing 5 of {result.totalProducts} products</span>
+                              )}
+                            </div>
+                          )}
+                          <ProductGrid 
+                            products={Array.isArray(result.products) ? result.products.slice(0, 5) : 
+                                     Array.isArray(result) ? result.slice(0, 5) : []}
+                            showFilters={toolName === 'applyFilters' || (result.filters && Object.keys(result.filters).length > 0)}
+                          />
+                        </>
                       ) : (
                         <pre>{JSON.stringify(result, null, 2)}</pre>
                       )}

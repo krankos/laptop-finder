@@ -1,0 +1,4928 @@
+{
+  "totalProducts": 200,
+  "totalPages": 12,
+  "filters": {
+    "Fabricants": [
+      {
+        "value": "1Prime",
+        "count": 0
+      },
+      {
+        "value": "2X3",
+        "count": 0
+      },
+      {
+        "value": "3mk-Protection",
+        "count": 0
+      },
+      {
+        "value": "abkoncore",
+        "count": 0
+      },
+      {
+        "value": "Ablerex",
+        "count": 0
+      },
+      {
+        "value": "Accent",
+        "count": 0
+      },
+      {
+        "value": "Accutone",
+        "count": 0
+      },
+      {
+        "value": "Acer",
+        "count": 0
+      },
+      {
+        "value": "ACESEE",
+        "count": 0
+      },
+      {
+        "value": "ACME",
+        "count": 0
+      },
+      {
+        "value": "ACQUA",
+        "count": 0
+      },
+      {
+        "value": "acworldwide",
+        "count": 0
+      },
+      {
+        "value": "Adata",
+        "count": 0
+      },
+      {
+        "value": "Addison",
+        "count": 0
+      },
+      {
+        "value": "addlink",
+        "count": 0
+      },
+      {
+        "value": "ADVANCE",
+        "count": 0
+      },
+      {
+        "value": "AEG",
+        "count": 0
+      },
+      {
+        "value": "Aero",
+        "count": 0
+      },
+      {
+        "value": "Aerocool",
+        "count": 0
+      },
+      {
+        "value": "AFK",
+        "count": 0
+      },
+      {
+        "value": "AFOX",
+        "count": 0
+      },
+      {
+        "value": "AIFA",
+        "count": 0
+      },
+      {
+        "value": "aiwa",
+        "count": 0
+      },
+      {
+        "value": "Akai Pro",
+        "count": 0
+      },
+      {
+        "value": "AKEL",
+        "count": 0
+      },
+      {
+        "value": "AKG",
+        "count": 0
+      },
+      {
+        "value": "Akuma",
+        "count": 0
+      },
+      {
+        "value": "AL-KO",
+        "count": 0
+      },
+      {
+        "value": "Alcatel",
+        "count": 0
+      },
+      {
+        "value": "Alienware",
+        "count": 0
+      },
+      {
+        "value": "ALVA",
+        "count": 0
+      },
+      {
+        "value": "Ama-mobile",
+        "count": 0
+      },
+      {
+        "value": "AMD RYZEN",
+        "count": 0
+      },
+      {
+        "value": "amimobile.tech",
+        "count": 0
+      },
+      {
+        "value": "Aneex",
+        "count": 0
+      },
+      {
+        "value": "ANKER",
+        "count": 0
+      },
+      {
+        "value": "ANSMANN",
+        "count": 0
+      },
+      {
+        "value": "Antaivision",
+        "count": 0
+      },
+      {
+        "value": "Antec",
+        "count": 0
+      },
+      {
+        "value": "AOC",
+        "count": 0
+      },
+      {
+        "value": "AORUS",
+        "count": 0
+      },
+      {
+        "value": "Apacer",
+        "count": 0
+      },
+      {
+        "value": "APC",
+        "count": 0
+      },
+      {
+        "value": "APLI",
+        "count": 0
+      },
+      {
+        "value": "Apotop",
+        "count": 0
+      },
+      {
+        "value": "Apple",
+        "count": 23
+      },
+      {
+        "value": "Apricorn",
+        "count": 0
+      },
+      {
+        "value": "aprilla",
+        "count": 0
+      },
+      {
+        "value": "aqirys",
+        "count": 0
+      },
+      {
+        "value": "aqprox",
+        "count": 0
+      },
+      {
+        "value": "arcelik",
+        "count": 0
+      },
+      {
+        "value": "Archos",
+        "count": 0
+      },
+      {
+        "value": "Arctic",
+        "count": 0
+      },
+      {
+        "value": "Arctic Hunter",
+        "count": 0
+      },
+      {
+        "value": "ARDA",
+        "count": 0
+      },
+      {
+        "value": "Ariete",
+        "count": 0
+      },
+      {
+        "value": "Ariston",
+        "count": 0
+      },
+      {
+        "value": "ARITA",
+        "count": 0
+      },
+      {
+        "value": "ARK",
+        "count": 0
+      },
+      {
+        "value": "Arktek",
+        "count": 0
+      },
+      {
+        "value": "Arnica",
+        "count": 0
+      },
+      {
+        "value": "ARNO",
+        "count": 0
+      },
+      {
+        "value": "artek",
+        "count": 0
+      },
+      {
+        "value": "Arthur Martin",
+        "count": 0
+      },
+      {
+        "value": "ArtSound",
+        "count": 0
+      },
+      {
+        "value": "ArtView",
+        "count": 0
+      },
+      {
+        "value": "Aruba",
+        "count": 0
+      },
+      {
+        "value": "Arzum",
+        "count": 0
+      },
+      {
+        "value": "asonic",
+        "count": 0
+      },
+      {
+        "value": "ASRock",
+        "count": 0
+      },
+      {
+        "value": "ASSNET",
+        "count": 0
+      },
+      {
+        "value": "Asus",
+        "count": 64
+      },
+      {
+        "value": "asustor",
+        "count": 0
+      },
+      {
+        "value": "ATARI",
+        "count": 0
+      },
+      {
+        "value": "aten",
+        "count": 0
+      },
+      {
+        "value": "Atlantic",
+        "count": 0
+      },
+      {
+        "value": "ATLANTIS",
+        "count": 0
+      },
+      {
+        "value": "Audeon",
+        "count": 0
+      },
+      {
+        "value": "Aula",
+        "count": 0
+      },
+      {
+        "value": "AUXSTAR",
+        "count": 0
+      },
+      {
+        "value": "avermedia",
+        "count": 0
+      },
+      {
+        "value": "avidsen",
+        "count": 0
+      },
+      {
+        "value": "avision",
+        "count": 0
+      },
+      {
+        "value": "avo",
+        "count": 0
+      },
+      {
+        "value": "AVSTART",
+        "count": 0
+      },
+      {
+        "value": "AXIS",
+        "count": 0
+      },
+      {
+        "value": "AXON",
+        "count": 0
+      },
+      {
+        "value": "axtel",
+        "count": 0
+      },
+      {
+        "value": "Azgenon",
+        "count": 0
+      },
+      {
+        "value": "azur",
+        "count": 0
+      },
+      {
+        "value": "BaByliss",
+        "count": 0
+      },
+      {
+        "value": "BAKU",
+        "count": 0
+      },
+      {
+        "value": "Balance",
+        "count": 0
+      },
+      {
+        "value": "Ballistix",
+        "count": 0
+      },
+      {
+        "value": "BANGE",
+        "count": 0
+      },
+      {
+        "value": "Baracuda Gaming",
+        "count": 0
+      },
+      {
+        "value": "Baseus",
+        "count": 0
+      },
+      {
+        "value": "be quiet!",
+        "count": 0
+      },
+      {
+        "value": "BEBIBOS",
+        "count": 0
+      },
+      {
+        "value": "Beetel",
+        "count": 0
+      },
+      {
+        "value": "BeeWi",
+        "count": 0
+      },
+      {
+        "value": "Beko",
+        "count": 0
+      },
+      {
+        "value": "Belkin",
+        "count": 0
+      },
+      {
+        "value": "benco",
+        "count": 0
+      },
+      {
+        "value": "BenQ",
+        "count": 0
+      },
+      {
+        "value": "BENZI",
+        "count": 0
+      },
+      {
+        "value": "BEPER",
+        "count": 0
+      },
+      {
+        "value": "Best Sound",
+        "count": 0
+      },
+      {
+        "value": "Beurer",
+        "count": 0
+      },
+      {
+        "value": "Bi-Office",
+        "count": 0
+      },
+      {
+        "value": "Bialetti",
+        "count": 0
+      },
+      {
+        "value": "BIAOWANG",
+        "count": 0
+      },
+      {
+        "value": "BIAS",
+        "count": 0
+      },
+      {
+        "value": "BIC",
+        "count": 0
+      },
+      {
+        "value": "Bigben",
+        "count": 0
+      },
+      {
+        "value": "Billow",
+        "count": 0
+      },
+      {
+        "value": "BioLux",
+        "count": 0
+      },
+      {
+        "value": "Biostar",
+        "count": 0
+      },
+      {
+        "value": "Bitdefender",
+        "count": 0
+      },
+      {
+        "value": "BITMAIN",
+        "count": 0
+      },
+      {
+        "value": "BLACK DECKER",
+        "count": 0
+      },
+      {
+        "value": "Blaupunkt",
+        "count": 0
+      },
+      {
+        "value": "Blue House",
+        "count": 0
+      },
+      {
+        "value": "bmaxit",
+        "count": 0
+      },
+      {
+        "value": "Bold",
+        "count": 0
+      },
+      {
+        "value": "BOMANN",
+        "count": 0
+      },
+      {
+        "value": "Boncafe",
+        "count": 0
+      },
+      {
+        "value": "BONINI",
+        "count": 0
+      },
+      {
+        "value": "Bonsaii",
+        "count": 0
+      },
+      {
+        "value": "Borofone",
+        "count": 0
+      },
+      {
+        "value": "BOSCH",
+        "count": 0
+      },
+      {
+        "value": "Brandt",
+        "count": 0
+      },
+      {
+        "value": "BRAUN",
+        "count": 0
+      },
+      {
+        "value": "brennenstuhl",
+        "count": 0
+      },
+      {
+        "value": "BRITICOM",
+        "count": 0
+      },
+      {
+        "value": "Brother",
+        "count": 0
+      },
+      {
+        "value": "buffalo",
+        "count": 0
+      },
+      {
+        "value": "cabasse",
+        "count": 0
+      },
+      {
+        "value": "caffitaly",
+        "count": 0
+      },
+      {
+        "value": "cahors",
+        "count": 0
+      },
+      {
+        "value": "Calligraphe",
+        "count": 0
+      },
+      {
+        "value": "Calvin Klein",
+        "count": 0
+      },
+      {
+        "value": "CAMLINK",
+        "count": 0
+      },
+      {
+        "value": "Candy",
+        "count": 0
+      },
+      {
+        "value": "Canon",
+        "count": 0
+      },
+      {
+        "value": "Canovate",
+        "count": 0
+      },
+      {
+        "value": "CANSON",
+        "count": 0
+      },
+      {
+        "value": "Canyon",
+        "count": 0
+      },
+      {
+        "value": "Carioca",
+        "count": 0
+      },
+      {
+        "value": "Casio",
+        "count": 0
+      },
+      {
+        "value": "Celebrat",
+        "count": 0
+      },
+      {
+        "value": "Cello",
+        "count": 0
+      },
+      {
+        "value": "Ceylan",
+        "count": 0
+      },
+      {
+        "value": "chaffoteaux Tunisie",
+        "count": 0
+      },
+      {
+        "value": "CHAMPTEK",
+        "count": 0
+      },
+      {
+        "value": "chieftec",
+        "count": 0
+      },
+      {
+        "value": "Cirkuit Planet",
+        "count": 0
+      },
+      {
+        "value": "CityBlitz",
+        "count": 0
+      },
+      {
+        "value": "CIVORS",
+        "count": 0
+      },
+      {
+        "value": "Claber",
+        "count": 0
+      },
+      {
+        "value": "Clairefontaine",
+        "count": 0
+      },
+      {
+        "value": "CLATRONIC",
+        "count": 0
+      },
+      {
+        "value": "Claude Bernard",
+        "count": 0
+      },
+      {
+        "value": "CLEVER",
+        "count": 0
+      },
+      {
+        "value": "CLEVERMATE",
+        "count": 0
+      },
+      {
+        "value": "Clio Pro",
+        "count": 0
+      },
+      {
+        "value": "ClipSonic",
+        "count": 0
+      },
+      {
+        "value": "CLiPtec",
+        "count": 0
+      },
+      {
+        "value": "Club-3D",
+        "count": 0
+      },
+      {
+        "value": "COALA",
+        "count": 0
+      },
+      {
+        "value": "COBRA",
+        "count": 0
+      },
+      {
+        "value": "colmi",
+        "count": 0
+      },
+      {
+        "value": "combofoto",
+        "count": 0
+      },
+      {
+        "value": "Comfee by Midea",
+        "count": 0
+      },
+      {
+        "value": "commaxintercoms",
+        "count": 0
+      },
+      {
+        "value": "Compaq",
+        "count": 0
+      },
+      {
+        "value": "Compatible Brother",
+        "count": 0
+      },
+      {
+        "value": "Compatible Canon",
+        "count": 0
+      },
+      {
+        "value": "Compatible EPSON",
+        "count": 0
+      },
+      {
+        "value": "Compatible HP",
+        "count": 0
+      },
+      {
+        "value": "Compatible Konica Minolta",
+        "count": 0
+      },
+      {
+        "value": "Compatible Kyocera",
+        "count": 0
+      },
+      {
+        "value": "Compatible Lexmark",
+        "count": 0
+      },
+      {
+        "value": "Compatible Ricoh",
+        "count": 0
+      },
+      {
+        "value": "Compatible Samsung",
+        "count": 0
+      },
+      {
+        "value": "Compatible Sharp",
+        "count": 0
+      },
+      {
+        "value": "Conceptronic",
+        "count": 0
+      },
+      {
+        "value": "CONDOR",
+        "count": 0
+      },
+      {
+        "value": "ConfortLine",
+        "count": 0
+      },
+      {
+        "value": "CONQUERANT",
+        "count": 0
+      },
+      {
+        "value": "Contact",
+        "count": 0
+      },
+      {
+        "value": "CONTI",
+        "count": 0
+      },
+      {
+        "value": "Cooler Master",
+        "count": 0
+      },
+      {
+        "value": "COPY & LASER PAPER",
+        "count": 0
+      },
+      {
+        "value": "CopyStar",
+        "count": 0
+      },
+      {
+        "value": "CORALjet",
+        "count": 0
+      },
+      {
+        "value": "Cornilleau",
+        "count": 0
+      },
+      {
+        "value": "CORSAIR",
+        "count": 0
+      },
+      {
+        "value": "COSTO",
+        "count": 0
+      },
+      {
+        "value": "CP Plus",
+        "count": 0
+      },
+      {
+        "value": "Crosscall",
+        "count": 0
+      },
+      {
+        "value": "Crown Micro",
+        "count": 0
+      },
+      {
+        "value": "Crucial",
+        "count": 0
+      },
+      {
+        "value": "Crumpler",
+        "count": 0
+      },
+      {
+        "value": "CSHAL",
+        "count": 0
+      },
+      {
+        "value": "Cuisinart",
+        "count": 0
+      },
+      {
+        "value": "CYGNETT",
+        "count": 0
+      },
+      {
+        "value": "D-Link",
+        "count": 0
+      },
+      {
+        "value": "Dacomex",
+        "count": 0
+      },
+      {
+        "value": "DAEWOO",
+        "count": 0
+      },
+      {
+        "value": "DAHLE",
+        "count": 0
+      },
+      {
+        "value": "Dahua",
+        "count": 0
+      },
+      {
+        "value": "Dascom",
+        "count": 0
+      },
+      {
+        "value": "DataLogic",
+        "count": 0
+      },
+      {
+        "value": "DataRight",
+        "count": 0
+      },
+      {
+        "value": "DataShell",
+        "count": 0
+      },
+      {
+        "value": "DatoTek",
+        "count": 0
+      },
+      {
+        "value": "Decakila",
+        "count": 0
+      },
+      {
+        "value": "DeepCool",
+        "count": 0
+      },
+      {
+        "value": "Deli",
+        "count": 0
+      },
+      {
+        "value": "Dell",
+        "count": 15
+      },
+      {
+        "value": "DeLonghi",
+        "count": 0
+      },
+      {
+        "value": "DELSEY",
+        "count": 0
+      },
+      {
+        "value": "Delux",
+        "count": 0
+      },
+      {
+        "value": "develop",
+        "count": 0
+      },
+      {
+        "value": "Di4",
+        "count": 0
+      },
+      {
+        "value": "Digi tus",
+        "count": 0
+      },
+      {
+        "value": "Digitus",
+        "count": 0
+      },
+      {
+        "value": "Discovery",
+        "count": 0
+      },
+      {
+        "value": "Disney",
+        "count": 0
+      },
+      {
+        "value": "ditron",
+        "count": 0
+      },
+      {
+        "value": "dji",
+        "count": 0
+      },
+      {
+        "value": "DL Dingli",
+        "count": 0
+      },
+      {
+        "value": "DMS",
+        "count": 0
+      },
+      {
+        "value": "DomoClip",
+        "count": 0
+      },
+      {
+        "value": "DONAU",
+        "count": 0
+      },
+      {
+        "value": "DOOGEE",
+        "count": 0
+      },
+      {
+        "value": "Doro",
+        "count": 0
+      },
+      {
+        "value": "Double A",
+        "count": 0
+      },
+      {
+        "value": "DOWINX Gaming",
+        "count": 0
+      },
+      {
+        "value": "DrayTek",
+        "count": 0
+      },
+      {
+        "value": "Dreambox",
+        "count": 0
+      },
+      {
+        "value": "ducati",
+        "count": 0
+      },
+      {
+        "value": "Duracell",
+        "count": 0
+      },
+      {
+        "value": "dynabook",
+        "count": 0
+      },
+      {
+        "value": "Dysis",
+        "count": 0
+      },
+      {
+        "value": "e-star",
+        "count": 0
+      },
+      {
+        "value": "E.BOX",
+        "count": 0
+      },
+      {
+        "value": "E5",
+        "count": 0
+      },
+      {
+        "value": "Eacan",
+        "count": 0
+      },
+      {
+        "value": "EAGLE",
+        "count": 0
+      },
+      {
+        "value": "EAST",
+        "count": 0
+      },
+      {
+        "value": "Eaton",
+        "count": 0
+      },
+      {
+        "value": "echolink",
+        "count": 0
+      },
+      {
+        "value": "Eco Moto",
+        "count": 0
+      },
+      {
+        "value": "Ecolux",
+        "count": 0
+      },
+      {
+        "value": "Econo-Heat",
+        "count": 0
+      },
+      {
+        "value": "ECOSAT",
+        "count": 0
+      },
+      {
+        "value": "edding",
+        "count": 0
+      },
+      {
+        "value": "Eisenbach",
+        "count": 0
+      },
+      {
+        "value": "EKSA",
+        "count": 0
+      },
+      {
+        "value": "ELBA",
+        "count": 0
+      },
+      {
+        "value": "ELE-GATE",
+        "count": 0
+      },
+      {
+        "value": "Electrolux",
+        "count": 0
+      },
+      {
+        "value": "Elephent",
+        "count": 0
+      },
+      {
+        "value": "ELITE",
+        "count": 0
+      },
+      {
+        "value": "Elleti",
+        "count": 0
+      },
+      {
+        "value": "EMG",
+        "count": 0
+      },
+      {
+        "value": "EMROD",
+        "count": 0
+      },
+      {
+        "value": "Emtec",
+        "count": 0
+      },
+      {
+        "value": "endorfy",
+        "count": 0
+      },
+      {
+        "value": "Energizer",
+        "count": 0
+      },
+      {
+        "value": "Energy Sistem",
+        "count": 0
+      },
+      {
+        "value": "enlegend",
+        "count": 0
+      },
+      {
+        "value": "Enter",
+        "count": 0
+      },
+      {
+        "value": "Epson",
+        "count": 0
+      },
+      {
+        "value": "Equinox",
+        "count": 0
+      },
+      {
+        "value": "equip",
+        "count": 0
+      },
+      {
+        "value": "Erich Krause",
+        "count": 0
+      },
+      {
+        "value": "eScan",
+        "count": 0
+      },
+      {
+        "value": "ESHARK",
+        "count": 0
+      },
+      {
+        "value": "Esselte",
+        "count": 0
+      },
+      {
+        "value": "Estap",
+        "count": 0
+      },
+      {
+        "value": "eufylife",
+        "count": 0
+      },
+      {
+        "value": "Europa",
+        "count": 0
+      },
+      {
+        "value": "EVEREADY",
+        "count": 0
+      },
+      {
+        "value": "Everest",
+        "count": 0
+      },
+      {
+        "value": "EverFit",
+        "count": 0
+      },
+      {
+        "value": "Evertek",
+        "count": 0
+      },
+      {
+        "value": "EVERTEK Home",
+        "count": 0
+      },
+      {
+        "value": "Everyday",
+        "count": 0
+      },
+      {
+        "value": "EVERYDAY1",
+        "count": 0
+      },
+      {
+        "value": "EVGA",
+        "count": 0
+      },
+      {
+        "value": "EWEADN",
+        "count": 0
+      },
+      {
+        "value": "EXACOMPTA",
+        "count": 0
+      },
+      {
+        "value": "explorer",
+        "count": 0
+      },
+      {
+        "value": "EZRA",
+        "count": 0
+      },
+      {
+        "value": "EZVIZ",
+        "count": 0
+      },
+      {
+        "value": "Faber-Castell",
+        "count": 0
+      },
+      {
+        "value": "fabo",
+        "count": 0
+      },
+      {
+        "value": "Fackelmann",
+        "count": 0
+      },
+      {
+        "value": "Facom",
+        "count": 0
+      },
+      {
+        "value": "Fagor",
+        "count": 0
+      },
+      {
+        "value": "FAIBO",
+        "count": 0
+      },
+      {
+        "value": "Fakir",
+        "count": 0
+      },
+      {
+        "value": "FALCON",
+        "count": 0
+      },
+      {
+        "value": "fancier",
+        "count": 0
+      },
+      {
+        "value": "Fantastick",
+        "count": 0
+      },
+      {
+        "value": "FANTECH",
+        "count": 0
+      },
+      {
+        "value": "Fantom",
+        "count": 0
+      },
+      {
+        "value": "Fellowes",
+        "count": 0
+      },
+      {
+        "value": "FEMAS",
+        "count": 0
+      },
+      {
+        "value": "Fenton",
+        "count": 0
+      },
+      {
+        "value": "Ferrari",
+        "count": 0
+      },
+      {
+        "value": "Ferrari Server",
+        "count": 0
+      },
+      {
+        "value": "Ferre",
+        "count": 0
+      },
+      {
+        "value": "Festina",
+        "count": 0
+      },
+      {
+        "value": "Figi",
+        "count": 0
+      },
+      {
+        "value": "FINNLO",
+        "count": 0
+      },
+      {
+        "value": "FIRST",
+        "count": 0
+      },
+      {
+        "value": "FitnessMax",
+        "count": 0
+      },
+      {
+        "value": "Flashfire",
+        "count": 0
+      },
+      {
+        "value": "FLIK FLAK",
+        "count": 0
+      },
+      {
+        "value": "FLORENCE",
+        "count": 0
+      },
+      {
+        "value": "Floria",
+        "count": 0
+      },
+      {
+        "value": "FOCUS",
+        "count": 0
+      },
+      {
+        "value": "Focus",
+        "count": 0
+      },
+      {
+        "value": "Foldermate",
+        "count": 0
+      },
+      {
+        "value": "Fondi",
+        "count": 0
+      },
+      {
+        "value": "Forever",
+        "count": 0
+      },
+      {
+        "value": "Fortinet",
+        "count": 0
+      },
+      {
+        "value": "Foska",
+        "count": 0
+      },
+      {
+        "value": "FPmax",
+        "count": 0
+      },
+      {
+        "value": "Franco",
+        "count": 0
+      },
+      {
+        "value": "Freecom",
+        "count": 0
+      },
+      {
+        "value": "Fresh",
+        "count": 0
+      },
+      {
+        "value": "FSP",
+        "count": 0
+      },
+      {
+        "value": "Fujifilm",
+        "count": 0
+      },
+      {
+        "value": "FUJIPOWER",
+        "count": 0
+      },
+      {
+        "value": "Fujitsu",
+        "count": 0
+      },
+      {
+        "value": "Full Setup Tunisianet",
+        "count": 0
+      },
+      {
+        "value": "FURUIDE",
+        "count": 0
+      },
+      {
+        "value": "Fusdon",
+        "count": 0
+      },
+      {
+        "value": "G-SYSTEM",
+        "count": 0
+      },
+      {
+        "value": "G.Skill",
+        "count": 0
+      },
+      {
+        "value": "Gainward",
+        "count": 0
+      },
+      {
+        "value": "Galanz",
+        "count": 0
+      },
+      {
+        "value": "Galax",
+        "count": 0
+      },
+      {
+        "value": "Galaxy Naturel",
+        "count": 0
+      },
+      {
+        "value": "GAMDIAS",
+        "count": 0
+      },
+      {
+        "value": "GAMEMAX",
+        "count": 0
+      },
+      {
+        "value": "gaobiaoiot",
+        "count": 0
+      },
+      {
+        "value": "Gardena",
+        "count": 0
+      },
+      {
+        "value": "Garlando",
+        "count": 0
+      },
+      {
+        "value": "GARMIN",
+        "count": 0
+      },
+      {
+        "value": "GBC",
+        "count": 0
+      },
+      {
+        "value": "Géant",
+        "count": 0
+      },
+      {
+        "value": "GEAR4",
+        "count": 0
+      },
+      {
+        "value": "Geha",
+        "count": 0
+      },
+      {
+        "value": "GEKO",
+        "count": 0
+      },
+      {
+        "value": "Gelcy",
+        "count": 0
+      },
+      {
+        "value": "gembird",
+        "count": 0
+      },
+      {
+        "value": "Général Gold",
+        "count": 0
+      },
+      {
+        "value": "Genesis",
+        "count": 0
+      },
+      {
+        "value": "Génie",
+        "count": 0
+      },
+      {
+        "value": "Geniphone",
+        "count": 0
+      },
+      {
+        "value": "Genius",
+        "count": 0
+      },
+      {
+        "value": "Gibs",
+        "count": 0
+      },
+      {
+        "value": "GIGABYTE",
+        "count": 0
+      },
+      {
+        "value": "Gigaset",
+        "count": 0
+      },
+      {
+        "value": "Gizmobitz",
+        "count": 0
+      },
+      {
+        "value": "GLEM",
+        "count": 0
+      },
+      {
+        "value": "Glorious Pc Gaming Race",
+        "count": 0
+      },
+      {
+        "value": "GLORY",
+        "count": 0
+      },
+      {
+        "value": "GoldMaster",
+        "count": 0
+      },
+      {
+        "value": "GoldSound",
+        "count": 0
+      },
+      {
+        "value": "GOLF",
+        "count": 0
+      },
+      {
+        "value": "Golla",
+        "count": 0
+      },
+      {
+        "value": "GOLLA",
+        "count": 0
+      },
+      {
+        "value": "Goodram",
+        "count": 0
+      },
+      {
+        "value": "GP Batteries",
+        "count": 0
+      },
+      {
+        "value": "GPV France",
+        "count": 0
+      },
+      {
+        "value": "grandstream",
+        "count": 0
+      },
+      {
+        "value": "GREE",
+        "count": 0
+      },
+      {
+        "value": "GreenTree",
+        "count": 0
+      },
+      {
+        "value": "Griffin",
+        "count": 0
+      },
+      {
+        "value": "Grill'O",
+        "count": 0
+      },
+      {
+        "value": "GSkill",
+        "count": 0
+      },
+      {
+        "value": "Guangzhou",
+        "count": 0
+      },
+      {
+        "value": "GUESS",
+        "count": 0
+      },
+      {
+        "value": "Gxin",
+        "count": 0
+      },
+      {
+        "value": "Haier",
+        "count": 0
+      },
+      {
+        "value": "Hama",
+        "count": 0
+      },
+      {
+        "value": "HAME",
+        "count": 0
+      },
+      {
+        "value": "HAMELIN",
+        "count": 0
+      },
+      {
+        "value": "Hammer",
+        "count": 0
+      },
+      {
+        "value": "Hanns",
+        "count": 0
+      },
+      {
+        "value": "Hardybill",
+        "count": 0
+      },
+      {
+        "value": "Harman Kardon",
+        "count": 0
+      },
+      {
+        "value": "Harper",
+        "count": 0
+      },
+      {
+        "value": "HASEE",
+        "count": 0
+      },
+      {
+        "value": "Havit",
+        "count": 0
+      },
+      {
+        "value": "Haylou",
+        "count": 0
+      },
+      {
+        "value": "HELIT",
+        "count": 0
+      },
+      {
+        "value": "HERMA",
+        "count": 0
+      },
+      {
+        "value": "HGE",
+        "count": 0
+      },
+      {
+        "value": "HGST",
+        "count": 0
+      },
+      {
+        "value": "HI Line",
+        "count": 0
+      },
+      {
+        "value": "HiFuture",
+        "count": 0
+      },
+      {
+        "value": "HIKSEMI",
+        "count": 0
+      },
+      {
+        "value": "HIKVISION",
+        "count": 0
+      },
+      {
+        "value": "Hilook",
+        "count": 0
+      },
+      {
+        "value": "hisense",
+        "count": 0
+      },
+      {
+        "value": "HITACHI",
+        "count": 0
+      },
+      {
+        "value": "Hitachi-LG",
+        "count": 0
+      },
+      {
+        "value": "hoco",
+        "count": 0
+      },
+      {
+        "value": "Hoffmans electronics",
+        "count": 0
+      },
+      {
+        "value": "HOME DJ",
+        "count": 0
+      },
+      {
+        "value": "Honeywell",
+        "count": 0
+      },
+      {
+        "value": "Honor",
+        "count": 0
+      },
+      {
+        "value": "Hoobn",
+        "count": 0
+      },
+      {
+        "value": "Hoover",
+        "count": 0
+      },
+      {
+        "value": "Hori",
+        "count": 0
+      },
+      {
+        "value": "Horion",
+        "count": 0
+      },
+      {
+        "value": "HP",
+        "count": 47
+      },
+      {
+        "value": "HTC",
+        "count": 0
+      },
+      {
+        "value": "Huawei",
+        "count": 0
+      },
+      {
+        "value": "Huntkey",
+        "count": 0
+      },
+      {
+        "value": "HYBROK",
+        "count": 0
+      },
+      {
+        "value": "HyCell",
+        "count": 0
+      },
+      {
+        "value": "HyperX",
+        "count": 0
+      },
+      {
+        "value": "Hytech",
+        "count": 0
+      },
+      {
+        "value": "Hytera",
+        "count": 0
+      },
+      {
+        "value": "Hyundai",
+        "count": 0
+      },
+      {
+        "value": "IBM",
+        "count": 0
+      },
+      {
+        "value": "IBM-Lenovo",
+        "count": 0
+      },
+      {
+        "value": "Ibrit",
+        "count": 0
+      },
+      {
+        "value": "iconBIT",
+        "count": 0
+      },
+      {
+        "value": "Icone",
+        "count": 0
+      },
+      {
+        "value": "iCONIX",
+        "count": 0
+      },
+      {
+        "value": "ICY BOX",
+        "count": 0
+      },
+      {
+        "value": "iDANCE",
+        "count": 0
+      },
+      {
+        "value": "IDEA OFFICE",
+        "count": 0
+      },
+      {
+        "value": "Ignis",
+        "count": 0
+      },
+      {
+        "value": "iiyama",
+        "count": 0
+      },
+      {
+        "value": "IKU",
+        "count": 0
+      },
+      {
+        "value": "Imation",
+        "count": 0
+      },
+      {
+        "value": "imou",
+        "count": 0
+      },
+      {
+        "value": "INDESIT",
+        "count": 0
+      },
+      {
+        "value": "Infinix",
+        "count": 0
+      },
+      {
+        "value": "InFocus",
+        "count": 0
+      },
+      {
+        "value": "Inform",
+        "count": 0
+      },
+      {
+        "value": "Infosec",
+        "count": 0
+      },
+      {
+        "value": "Inkax",
+        "count": 0
+      },
+      {
+        "value": "inno3d",
+        "count": 0
+      },
+      {
+        "value": "INSTANT",
+        "count": 0
+      },
+      {
+        "value": "Insys",
+        "count": 0
+      },
+      {
+        "value": "Intel",
+        "count": 0
+      },
+      {
+        "value": "Intellinet",
+        "count": 0
+      },
+      {
+        "value": "Intenso",
+        "count": 0
+      },
+      {
+        "value": "Inter-Tech",
+        "count": 0
+      },
+      {
+        "value": "Intermec",
+        "count": 0
+      },
+      {
+        "value": "International Paper",
+        "count": 0
+      },
+      {
+        "value": "Iomega",
+        "count": 0
+      },
+      {
+        "value": "iPega",
+        "count": 0
+      },
+      {
+        "value": "IPLUS",
+        "count": 0
+      },
+      {
+        "value": "IPRO",
+        "count": 0
+      },
+      {
+        "value": "iPRODA",
+        "count": 0
+      },
+      {
+        "value": "Iris",
+        "count": 0
+      },
+      {
+        "value": "IRIScan",
+        "count": 0
+      },
+      {
+        "value": "iSmoke",
+        "count": 0
+      },
+      {
+        "value": "Isnatch",
+        "count": 0
+      },
+      {
+        "value": "iStar",
+        "count": 0
+      },
+      {
+        "value": "iTAB",
+        "count": 0
+      },
+      {
+        "value": "Itel mobile",
+        "count": 0
+      },
+      {
+        "value": "iXC",
+        "count": 0
+      },
+      {
+        "value": "J-STAR",
+        "count": 0
+      },
+      {
+        "value": "J.Vilaseca",
+        "count": 0
+      },
+      {
+        "value": "JABLOTRON",
+        "count": 0
+      },
+      {
+        "value": "Jabra",
+        "count": 0
+      },
+      {
+        "value": "JAM",
+        "count": 0
+      },
+      {
+        "value": "JBL",
+        "count": 0
+      },
+      {
+        "value": "JeDEL",
+        "count": 0
+      },
+      {
+        "value": "Jertech",
+        "count": 0
+      },
+      {
+        "value": "Jetion",
+        "count": 0
+      },
+      {
+        "value": "JetWAY",
+        "count": 0
+      },
+      {
+        "value": "Jeway",
+        "count": 0
+      },
+      {
+        "value": "JFtech",
+        "count": 0
+      },
+      {
+        "value": "Jiacom",
+        "count": 0
+      },
+      {
+        "value": "Jokade",
+        "count": 0
+      },
+      {
+        "value": "Joker",
+        "count": 0
+      },
+      {
+        "value": "Jovi",
+        "count": 0
+      },
+      {
+        "value": "JOYROOM",
+        "count": 0
+      },
+      {
+        "value": "K&F Concept",
+        "count": 0
+      },
+      {
+        "value": "Kaku",
+        "count": 0
+      },
+      {
+        "value": "Kanex",
+        "count": 0
+      },
+      {
+        "value": "Kangaro",
+        "count": 0
+      },
+      {
+        "value": "KARCHER",
+        "count": 0
+      },
+      {
+        "value": "KASPERSKY",
+        "count": 0
+      },
+      {
+        "value": "Kawasaki",
+        "count": 0
+      },
+      {
+        "value": "Kebos",
+        "count": 0
+      },
+      {
+        "value": "KEENION",
+        "count": 0
+      },
+      {
+        "value": "KEEP OUT",
+        "count": 0
+      },
+      {
+        "value": "KEN",
+        "count": 0
+      },
+      {
+        "value": "Kensington",
+        "count": 0
+      },
+      {
+        "value": "KENWOOD",
+        "count": 0
+      },
+      {
+        "value": "Kepow",
+        "count": 0
+      },
+      {
+        "value": "KERUI",
+        "count": 0
+      },
+      {
+        "value": "Keyborn",
+        "count": 0
+      },
+      {
+        "value": "Kieslect",
+        "count": 0
+      },
+      {
+        "value": "KIF Sport",
+        "count": 0
+      },
+      {
+        "value": "Kimex",
+        "count": 0
+      },
+      {
+        "value": "KING",
+        "count": 0
+      },
+      {
+        "value": "KingFast",
+        "count": 0
+      },
+      {
+        "value": "KINGLEEN",
+        "count": 0
+      },
+      {
+        "value": "KingsLong",
+        "count": 0
+      },
+      {
+        "value": "Kingslong",
+        "count": 0
+      },
+      {
+        "value": "Kingston",
+        "count": 0
+      },
+      {
+        "value": "kioxia",
+        "count": 0
+      },
+      {
+        "value": "Kisonli",
+        "count": 0
+      },
+      {
+        "value": "Kiwi-home",
+        "count": 0
+      },
+      {
+        "value": "KLASS",
+        "count": 0
+      },
+      {
+        "value": "Knorvay",
+        "count": 0
+      },
+      {
+        "value": "ko",
+        "count": 0
+      },
+      {
+        "value": "Kodak",
+        "count": 0
+      },
+      {
+        "value": "Konica Minolta",
+        "count": 0
+      },
+      {
+        "value": "König",
+        "count": 0
+      },
+      {
+        "value": "Konix",
+        "count": 0
+      },
+      {
+        "value": "Kores",
+        "count": 0
+      },
+      {
+        "value": "Korkmaz",
+        "count": 0
+      },
+      {
+        "value": "Korus",
+        "count": 0
+      },
+      {
+        "value": "Krups",
+        "count": 0
+      },
+      {
+        "value": "Krusell",
+        "count": 0
+      },
+      {
+        "value": "KSIX",
+        "count": 0
+      },
+      {
+        "value": "Kumtel",
+        "count": 0
+      },
+      {
+        "value": "Kyocera",
+        "count": 0
+      },
+      {
+        "value": "La Couronne",
+        "count": 0
+      },
+      {
+        "value": "LADY B",
+        "count": 0
+      },
+      {
+        "value": "LAMY",
+        "count": 0
+      },
+      {
+        "value": "Lanberg",
+        "count": 0
+      },
+      {
+        "value": "LANDE",
+        "count": 0
+      },
+      {
+        "value": "Lavazza",
+        "count": 0
+      },
+      {
+        "value": "LB-Link",
+        "count": 0
+      },
+      {
+        "value": "LC-POWER",
+        "count": 0
+      },
+      {
+        "value": "LDNIO",
+        "count": 0
+      },
+      {
+        "value": "le coq",
+        "count": 0
+      },
+      {
+        "value": "LEAGOO",
+        "count": 0
+      },
+      {
+        "value": "LEBOSS",
+        "count": 0
+      },
+      {
+        "value": "Ledwood",
+        "count": 0
+      },
+      {
+        "value": "Legrand",
+        "count": 0
+      },
+      {
+        "value": "Leifheit",
+        "count": 0
+      },
+      {
+        "value": "Leitz",
+        "count": 0
+      },
+      {
+        "value": "Lenovo",
+        "count": 51
+      },
+      {
+        "value": "LENTION",
+        "count": 0
+      },
+      {
+        "value": "Lenyes",
+        "count": 0
+      },
+      {
+        "value": "LevelOne",
+        "count": 0
+      },
+      {
+        "value": "Lexar",
+        "count": 0
+      },
+      {
+        "value": "Lexical",
+        "count": 0
+      },
+      {
+        "value": "Lexmark",
+        "count": 0
+      },
+      {
+        "value": "LEXUS",
+        "count": 0
+      },
+      {
+        "value": "LG",
+        "count": 0
+      },
+      {
+        "value": "Lian Li",
+        "count": 0
+      },
+      {
+        "value": "LINDO",
+        "count": 0
+      },
+      {
+        "value": "LinkCom",
+        "count": 0
+      },
+      {
+        "value": "Liteon",
+        "count": 0
+      },
+      {
+        "value": "Livoo",
+        "count": 0
+      },
+      {
+        "value": "Logic",
+        "count": 0
+      },
+      {
+        "value": "LOGICOM",
+        "count": 0
+      },
+      {
+        "value": "Logilink",
+        "count": 0
+      },
+      {
+        "value": "Logitech",
+        "count": 0
+      },
+      {
+        "value": "Longse",
+        "count": 0
+      },
+      {
+        "value": "LP",
+        "count": 0
+      },
+      {
+        "value": "LS VISION",
+        "count": 0
+      },
+      {
+        "value": "LS-MEDIA",
+        "count": 0
+      },
+      {
+        "value": "LuckySky",
+        "count": 0
+      },
+      {
+        "value": "LUXA2",
+        "count": 0
+      },
+      {
+        "value": "Luxell",
+        "count": 0
+      },
+      {
+        "value": "LUXTECK",
+        "count": 0
+      },
+      {
+        "value": "M-RED",
+        "count": 0
+      },
+      {
+        "value": "Macro",
+        "count": 0
+      },
+      {
+        "value": "Macy",
+        "count": 0
+      },
+      {
+        "value": "Magefesa",
+        "count": 0
+      },
+      {
+        "value": "Magic",
+        "count": 0
+      },
+      {
+        "value": "magimix",
+        "count": 0
+      },
+      {
+        "value": "Manhattan",
+        "count": 0
+      },
+      {
+        "value": "Maped",
+        "count": 0
+      },
+      {
+        "value": "Marketeer",
+        "count": 0
+      },
+      {
+        "value": "marley",
+        "count": 0
+      },
+      {
+        "value": "Mars Gaming",
+        "count": 0
+      },
+      {
+        "value": "Marshall",
+        "count": 0
+      },
+      {
+        "value": "Marvo",
+        "count": 0
+      },
+      {
+        "value": "Marvo Gaming",
+        "count": 0
+      },
+      {
+        "value": "maxcom",
+        "count": 0
+      },
+      {
+        "value": "Maxell",
+        "count": 0
+      },
+      {
+        "value": "Maxell",
+        "count": 0
+      },
+      {
+        "value": "Maxlife",
+        "count": 0
+      },
+      {
+        "value": "maXlife",
+        "count": 0
+      },
+      {
+        "value": "Maxtor",
+        "count": 0
+      },
+      {
+        "value": "Maxwell",
+        "count": 0
+      },
+      {
+        "value": "Mayerhoff",
+        "count": 0
+      },
+      {
+        "value": "McAfee",
+        "count": 0
+      },
+      {
+        "value": "MCdodo",
+        "count": 0
+      },
+      {
+        "value": "MCL Samar",
+        "count": 0
+      },
+      {
+        "value": "MEBOLE",
+        "count": 0
+      },
+      {
+        "value": "Mecool",
+        "count": 0
+      },
+      {
+        "value": "Meetion",
+        "count": 0
+      },
+      {
+        "value": "mega star",
+        "count": 0
+      },
+      {
+        "value": "Mehtap",
+        "count": 0
+      },
+      {
+        "value": "MEIJIELUO",
+        "count": 0
+      },
+      {
+        "value": "Meliconi",
+        "count": 0
+      },
+      {
+        "value": "Meliconi",
+        "count": 0
+      },
+      {
+        "value": "melitta",
+        "count": 0
+      },
+      {
+        "value": "memoboards",
+        "count": 0
+      },
+      {
+        "value": "Memorex",
+        "count": 0
+      },
+      {
+        "value": "MERCUSYS",
+        "count": 0
+      },
+      {
+        "value": "Metabo",
+        "count": 0
+      },
+      {
+        "value": "METALTEX",
+        "count": 0
+      },
+      {
+        "value": "mibro",
+        "count": 0
+      },
+      {
+        "value": "Micro Connect",
+        "count": 0
+      },
+      {
+        "value": "Micron",
+        "count": 0
+      },
+      {
+        "value": "Microsoft",
+        "count": 0
+      },
+      {
+        "value": "Microwear",
+        "count": 0
+      },
+      {
+        "value": "Midea",
+        "count": 0
+      },
+      {
+        "value": "Mikado",
+        "count": 0
+      },
+      {
+        "value": "MILAN",
+        "count": 0
+      },
+      {
+        "value": "Millenium",
+        "count": 0
+      },
+      {
+        "value": "MIPO",
+        "count": 0
+      },
+      {
+        "value": "MIPVISION",
+        "count": 0
+      },
+      {
+        "value": "MiraCase",
+        "count": 0
+      },
+      {
+        "value": "mirascreen",
+        "count": 0
+      },
+      {
+        "value": "Mitra",
+        "count": 0
+      },
+      {
+        "value": "MODECOM",
+        "count": 0
+      },
+      {
+        "value": "Modem Cat",
+        "count": 0
+      },
+      {
+        "value": "Molin",
+        "count": 0
+      },
+      {
+        "value": "Mondi",
+        "count": 0
+      },
+      {
+        "value": "mondi",
+        "count": 0
+      },
+      {
+        "value": "Moniteur",
+        "count": 0
+      },
+      {
+        "value": "Monray",
+        "count": 0
+      },
+      {
+        "value": "MontBlanc",
+        "count": 0
+      },
+      {
+        "value": "Mooni",
+        "count": 0
+      },
+      {
+        "value": "Morgan",
+        "count": 0
+      },
+      {
+        "value": "MOSER",
+        "count": 0
+      },
+      {
+        "value": "MOTOROLA",
+        "count": 0
+      },
+      {
+        "value": "Moulinex",
+        "count": 0
+      },
+      {
+        "value": "MS-TECH",
+        "count": 0
+      },
+      {
+        "value": "MSI",
+        "count": 0
+      },
+      {
+        "value": "MSI Essential",
+        "count": 0
+      },
+      {
+        "value": "MSI Ultimate",
+        "count": 0
+      },
+      {
+        "value": "MUJU",
+        "count": 0
+      },
+      {
+        "value": "Multicopy",
+        "count": 0
+      },
+      {
+        "value": "Murgat",
+        "count": 0
+      },
+      {
+        "value": "Muse",
+        "count": 0
+      },
+      {
+        "value": "mushkin",
+        "count": 0
+      },
+      {
+        "value": "MYARCADE",
+        "count": 0
+      },
+      {
+        "value": "myDevia",
+        "count": 0
+      },
+      {
+        "value": "nacon gaming",
+        "count": 0
+      },
+      {
+        "value": "NARDI",
+        "count": 0
+      },
+      {
+        "value": "nashuatec",
+        "count": 0
+      },
+      {
+        "value": "navigator",
+        "count": 0
+      },
+      {
+        "value": "Nebula",
+        "count": 0
+      },
+      {
+        "value": "NEC",
+        "count": 0
+      },
+      {
+        "value": "Nedis",
+        "count": 0
+      },
+      {
+        "value": "Neo",
+        "count": 0
+      },
+      {
+        "value": "Nespresso",
+        "count": 0
+      },
+      {
+        "value": "nest",
+        "count": 0
+      },
+      {
+        "value": "netcore",
+        "count": 0
+      },
+      {
+        "value": "New One",
+        "count": 0
+      },
+      {
+        "value": "Newstar",
+        "count": 0
+      },
+      {
+        "value": "Nextbook",
+        "count": 0
+      },
+      {
+        "value": "Nexus",
+        "count": 0
+      },
+      {
+        "value": "NGS",
+        "count": 0
+      },
+      {
+        "value": "Nikon",
+        "count": 0
+      },
+      {
+        "value": "Ninja",
+        "count": 0
+      },
+      {
+        "value": "nintendo",
+        "count": 0
+      },
+      {
+        "value": "Nintendo Switch",
+        "count": 0
+      },
+      {
+        "value": "NISPREA",
+        "count": 0
+      },
+      {
+        "value": "Nitrox",
+        "count": 0
+      },
+      {
+        "value": "NJOY",
+        "count": 0
+      },
+      {
+        "value": "Nobo",
+        "count": 0
+      },
+      {
+        "value": "Nokia",
+        "count": 0
+      },
+      {
+        "value": "Noname",
+        "count": 0
+      },
+      {
+        "value": "norton by symantec",
+        "count": 0
+      },
+      {
+        "value": "NOVA",
+        "count": 0
+      },
+      {
+        "value": "Novus",
+        "count": 0
+      },
+      {
+        "value": "NOWO",
+        "count": 0
+      },
+      {
+        "value": "Nuovo",
+        "count": 0
+      },
+      {
+        "value": "Nvidia",
+        "count": 0
+      },
+      {
+        "value": "NZXT",
+        "count": 0
+      },
+      {
+        "value": "OAKORN",
+        "count": 0
+      },
+      {
+        "value": "OALE",
+        "count": 0
+      },
+      {
+        "value": "OCEAN",
+        "count": 0
+      },
+      {
+        "value": "Ocean",
+        "count": 0
+      },
+      {
+        "value": "OCPC Gaming",
+        "count": 0
+      },
+      {
+        "value": "OCTA",
+        "count": 0
+      },
+      {
+        "value": "OCZ",
+        "count": 0
+      },
+      {
+        "value": "OFFICE Products",
+        "count": 0
+      },
+      {
+        "value": "OfficePlast",
+        "count": 0
+      },
+      {
+        "value": "Oliver-Voltz",
+        "count": 0
+      },
+      {
+        "value": "OLYMPIA",
+        "count": 0
+      },
+      {
+        "value": "Olympus",
+        "count": 0
+      },
+      {
+        "value": "OMEGA",
+        "count": 0
+      },
+      {
+        "value": "Omega",
+        "count": 0
+      },
+      {
+        "value": "OneOdio",
+        "count": 0
+      },
+      {
+        "value": "OnePlus",
+        "count": 0
+      },
+      {
+        "value": "Online",
+        "count": 0
+      },
+      {
+        "value": "Ooredoo",
+        "count": 0
+      },
+      {
+        "value": "Oppo",
+        "count": 0
+      },
+      {
+        "value": "Optico",
+        "count": 0
+      },
+      {
+        "value": "Optoma",
+        "count": 0
+      },
+      {
+        "value": "Oraimo",
+        "count": 0
+      },
+      {
+        "value": "Oral-B",
+        "count": 0
+      },
+      {
+        "value": "Oray",
+        "count": 0
+      },
+      {
+        "value": "Oray",
+        "count": 0
+      },
+      {
+        "value": "Orico",
+        "count": 0
+      },
+      {
+        "value": "Orient",
+        "count": 0
+      },
+      {
+        "value": "ORYXO",
+        "count": 0
+      },
+      {
+        "value": "OSALO",
+        "count": 0
+      },
+      {
+        "value": "Oscar",
+        "count": 0
+      },
+      {
+        "value": "oscoo",
+        "count": 0
+      },
+      {
+        "value": "Oteeto",
+        "count": 0
+      },
+      {
+        "value": "OTU",
+        "count": 0
+      },
+      {
+        "value": "Oukitel",
+        "count": 0
+      },
+      {
+        "value": "OVERMAX",
+        "count": 0
+      },
+      {
+        "value": "Overmax",
+        "count": 0
+      },
+      {
+        "value": "OVLENG",
+        "count": 0
+      },
+      {
+        "value": "Oxford",
+        "count": 0
+      },
+      {
+        "value": "OXO",
+        "count": 0
+      },
+      {
+        "value": "Oxygene",
+        "count": 0
+      },
+      {
+        "value": "Ozone",
+        "count": 0
+      },
+      {
+        "value": "Pairdeer",
+        "count": 0
+      },
+      {
+        "value": "Palit",
+        "count": 0
+      },
+      {
+        "value": "Palson",
+        "count": 0
+      },
+      {
+        "value": "Panasonic",
+        "count": 0
+      },
+      {
+        "value": "Pantum",
+        "count": 0
+      },
+      {
+        "value": "Parker",
+        "count": 0
+      },
+      {
+        "value": "PARTNER",
+        "count": 0
+      },
+      {
+        "value": "PATONA",
+        "count": 0
+      },
+      {
+        "value": "Patriot",
+        "count": 0
+      },
+      {
+        "value": "Peach",
+        "count": 0
+      },
+      {
+        "value": "Pelikan",
+        "count": 0
+      },
+      {
+        "value": "Penrui",
+        "count": 0
+      },
+      {
+        "value": "PENTAX",
+        "count": 0
+      },
+      {
+        "value": "Pentel",
+        "count": 0
+      },
+      {
+        "value": "PERFECTA",
+        "count": 0
+      },
+      {
+        "value": "perilla",
+        "count": 0
+      },
+      {
+        "value": "Perixx",
+        "count": 0
+      },
+      {
+        "value": "Phanteks",
+        "count": 0
+      },
+      {
+        "value": "PHILIPS",
+        "count": 0
+      },
+      {
+        "value": "PieffeLine",
+        "count": 0
+      },
+      {
+        "value": "Pioneer",
+        "count": 0
+      },
+      {
+        "value": "PIX-LINK",
+        "count": 0
+      },
+      {
+        "value": "Planet",
+        "count": 0
+      },
+      {
+        "value": "Plantronics",
+        "count": 0
+      },
+      {
+        "value": "PLATINET",
+        "count": 0
+      },
+      {
+        "value": "Platino",
+        "count": 0
+      },
+      {
+        "value": "PNJ",
+        "count": 0
+      },
+      {
+        "value": "PNY",
+        "count": 0
+      },
+      {
+        "value": "Point of view",
+        "count": 0
+      },
+      {
+        "value": "poly",
+        "count": 0
+      },
+      {
+        "value": "Port",
+        "count": 0
+      },
+      {
+        "value": "Powered By Asus",
+        "count": 0
+      },
+      {
+        "value": "Powered By MSI",
+        "count": 0
+      },
+      {
+        "value": "Powered by MSI",
+        "count": 0
+      },
+      {
+        "value": "PREMIUM",
+        "count": 0
+      },
+      {
+        "value": "PREMIUM TUNISIANET",
+        "count": 0
+      },
+      {
+        "value": "Prestigio",
+        "count": 0
+      },
+      {
+        "value": "Princess",
+        "count": 0
+      },
+      {
+        "value": "Printronix",
+        "count": 0
+      },
+      {
+        "value": "Probox",
+        "count": 0
+      },
+      {
+        "value": "ProCook",
+        "count": 0
+      },
+      {
+        "value": "PROFF",
+        "count": 0
+      },
+      {
+        "value": "PROFICARE",
+        "count": 0
+      },
+      {
+        "value": "ProfiCook",
+        "count": 0
+      },
+      {
+        "value": "Promate",
+        "count": 0
+      },
+      {
+        "value": "Protech",
+        "count": 0
+      },
+      {
+        "value": "PUNTA",
+        "count": 0
+      },
+      {
+        "value": "PURE LIGHTS",
+        "count": 0
+      },
+      {
+        "value": "Puro",
+        "count": 0
+      },
+      {
+        "value": "purple Office",
+        "count": 0
+      },
+      {
+        "value": "PWAY",
+        "count": 0
+      },
+      {
+        "value": "Q-Connect",
+        "count": 0
+      },
+      {
+        "value": "QBox",
+        "count": 0
+      },
+      {
+        "value": "QCY",
+        "count": 0
+      },
+      {
+        "value": "QCY",
+        "count": 0
+      },
+      {
+        "value": "Qds",
+        "count": 0
+      },
+      {
+        "value": "Qkids",
+        "count": 0
+      },
+      {
+        "value": "Qmax",
+        "count": 0
+      },
+      {
+        "value": "QNAP",
+        "count": 0
+      },
+      {
+        "value": "Qnn Safe",
+        "count": 0
+      },
+      {
+        "value": "qPad",
+        "count": 0
+      },
+      {
+        "value": "R8",
+        "count": 0
+      },
+      {
+        "value": "Radiola",
+        "count": 0
+      },
+      {
+        "value": "RAIDON",
+        "count": 0
+      },
+      {
+        "value": "Raijintek",
+        "count": 0
+      },
+      {
+        "value": "Rainbow",
+        "count": 0
+      },
+      {
+        "value": "Ramaxel",
+        "count": 0
+      },
+      {
+        "value": "RAMITECH",
+        "count": 0
+      },
+      {
+        "value": "Rampage",
+        "count": 0
+      },
+      {
+        "value": "Rampage Addison",
+        "count": 0
+      },
+      {
+        "value": "Rampage Everest",
+        "count": 0
+      },
+      {
+        "value": "RAVPower",
+        "count": 0
+      },
+      {
+        "value": "Rayen",
+        "count": 0
+      },
+      {
+        "value": "Rayovac",
+        "count": 0
+      },
+      {
+        "value": "Razer",
+        "count": 0
+      },
+      {
+        "value": "realme",
+        "count": 0
+      },
+      {
+        "value": "Rebeltec",
+        "count": 0
+      },
+      {
+        "value": "RECRSI",
+        "count": 0
+      },
+      {
+        "value": "REDBOX",
+        "count": 0
+      },
+      {
+        "value": "RedLine",
+        "count": 0
+      },
+      {
+        "value": "Redragon",
+        "count": 0
+      },
+      {
+        "value": "Remax",
+        "count": 0
+      },
+      {
+        "value": "REMINGTON",
+        "count": 0
+      },
+      {
+        "value": "Renata",
+        "count": 0
+      },
+      {
+        "value": "Rexel",
+        "count": 0
+      },
+      {
+        "value": "Rey Adagio",
+        "count": 0
+      },
+      {
+        "value": "REZMAY",
+        "count": 0
+      },
+      {
+        "value": "rhino",
+        "count": 0
+      },
+      {
+        "value": "RHODIA",
+        "count": 0
+      },
+      {
+        "value": "Richelieu",
+        "count": 0
+      },
+      {
+        "value": "RICOH",
+        "count": 0
+      },
+      {
+        "value": "Ringke",
+        "count": 0
+      },
+      {
+        "value": "RIOTORO",
+        "count": 0
+      },
+      {
+        "value": "RIVACASE",
+        "count": 0
+      },
+      {
+        "value": "River",
+        "count": 0
+      },
+      {
+        "value": "Riversong-Technology",
+        "count": 0
+      },
+      {
+        "value": "Roccat",
+        "count": 0
+      },
+      {
+        "value": "RODE",
+        "count": 0
+      },
+      {
+        "value": "Rollo",
+        "count": 0
+      },
+      {
+        "value": "ROLY",
+        "count": 0
+      },
+      {
+        "value": "Romoss",
+        "count": 0
+      },
+      {
+        "value": "Rosberg",
+        "count": 0
+      },
+      {
+        "value": "Rotring",
+        "count": 0
+      },
+      {
+        "value": "Rowenta",
+        "count": 0
+      },
+      {
+        "value": "royal",
+        "count": 0
+      },
+      {
+        "value": "Royalty Line",
+        "count": 0
+      },
+      {
+        "value": "RUIZU",
+        "count": 0
+      },
+      {
+        "value": "Russel Hobbs",
+        "count": 0
+      },
+      {
+        "value": "s-link",
+        "count": 0
+      },
+      {
+        "value": "S-link Swapp",
+        "count": 0
+      },
+      {
+        "value": "S.B.S.",
+        "count": 0
+      },
+      {
+        "value": "SABA",
+        "count": 0
+      },
+      {
+        "value": "Saeco",
+        "count": 0
+      },
+      {
+        "value": "Safe",
+        "count": 0
+      },
+      {
+        "value": "Safewell",
+        "count": 0
+      },
+      {
+        "value": "Sagemcom",
+        "count": 0
+      },
+      {
+        "value": "Saitell",
+        "count": 0
+      },
+      {
+        "value": "salicru",
+        "count": 0
+      },
+      {
+        "value": "SamSat",
+        "count": 0
+      },
+      {
+        "value": "Samsonite",
+        "count": 0
+      },
+      {
+        "value": "Samsung",
+        "count": 0
+      },
+      {
+        "value": "sandberg",
+        "count": 0
+      },
+      {
+        "value": "Sandisk",
+        "count": 0
+      },
+      {
+        "value": "SANITAS",
+        "count": 0
+      },
+      {
+        "value": "Sapphire",
+        "count": 0
+      },
+      {
+        "value": "Saratoga",
+        "count": 0
+      },
+      {
+        "value": "Satel",
+        "count": 0
+      },
+      {
+        "value": "Saturn",
+        "count": 0
+      },
+      {
+        "value": "SAX",
+        "count": 0
+      },
+      {
+        "value": "SBOX",
+        "count": 0
+      },
+      {
+        "value": "Scheffler",
+        "count": 0
+      },
+      {
+        "value": "Schneider",
+        "count": 0
+      },
+      {
+        "value": "SCHNEIDER",
+        "count": 0
+      },
+      {
+        "value": "Scriva",
+        "count": 0
+      },
+      {
+        "value": "Seagate",
+        "count": 0
+      },
+      {
+        "value": "SEASONIC",
+        "count": 0
+      },
+      {
+        "value": "SecuMax",
+        "count": 0
+      },
+      {
+        "value": "Secureye",
+        "count": 0
+      },
+      {
+        "value": "SEG",
+        "count": 0
+      },
+      {
+        "value": "SEGA GENESIS",
+        "count": 0
+      },
+      {
+        "value": "Seiko",
+        "count": 0
+      },
+      {
+        "value": "SELECTA",
+        "count": 0
+      },
+      {
+        "value": "Senbono",
+        "count": 0
+      },
+      {
+        "value": "SENNHEISER",
+        "count": 0
+      },
+      {
+        "value": "Servicom",
+        "count": 0
+      },
+      {
+        "value": "setty",
+        "count": 0
+      },
+      {
+        "value": "SEVERIN",
+        "count": 0
+      },
+      {
+        "value": "SEYVR",
+        "count": 0
+      },
+      {
+        "value": "Shark",
+        "count": 0
+      },
+      {
+        "value": "sharkoon",
+        "count": 0
+      },
+      {
+        "value": "Sharp",
+        "count": 0
+      },
+      {
+        "value": "Sildar",
+        "count": 0
+      },
+      {
+        "value": "silentiumpc",
+        "count": 0
+      },
+      {
+        "value": "Silicon Power",
+        "count": 0
+      },
+      {
+        "value": "SilverCrest",
+        "count": 0
+      },
+      {
+        "value": "SilverLine",
+        "count": 0
+      },
+      {
+        "value": "Simeo",
+        "count": 0
+      },
+      {
+        "value": "Simfer",
+        "count": 0
+      },
+      {
+        "value": "Simtech",
+        "count": 0
+      },
+      {
+        "value": "SINBO",
+        "count": 0
+      },
+      {
+        "value": "SIYOTEAM",
+        "count": 0
+      },
+      {
+        "value": "SK Hynix",
+        "count": 0
+      },
+      {
+        "value": "SKYBOW",
+        "count": 0
+      },
+      {
+        "value": "Smart",
+        "count": 0
+      },
+      {
+        "value": "Smartec",
+        "count": 0
+      },
+      {
+        "value": "Smartek",
+        "count": 0
+      },
+      {
+        "value": "SmartTab",
+        "count": 0
+      },
+      {
+        "value": "SMC",
+        "count": 0
+      },
+      {
+        "value": "SMS Audio",
+        "count": 0
+      },
+      {
+        "value": "Snopake",
+        "count": 0
+      },
+      {
+        "value": "SNOPY",
+        "count": 0
+      },
+      {
+        "value": "Snopy Rampage",
+        "count": 0
+      },
+      {
+        "value": "SOEHNLE",
+        "count": 0
+      },
+      {
+        "value": "SoftClean",
+        "count": 0
+      },
+      {
+        "value": "SOLAC",
+        "count": 0
+      },
+      {
+        "value": "SOLTER",
+        "count": 0
+      },
+      {
+        "value": "SOMEF",
+        "count": 0
+      },
+      {
+        "value": "Sonifer",
+        "count": 0
+      },
+      {
+        "value": "Sonorous",
+        "count": 0
+      },
+      {
+        "value": "Sony",
+        "count": 0
+      },
+      {
+        "value": "Sony VAIO",
+        "count": 0
+      },
+      {
+        "value": "SOREX",
+        "count": 0
+      },
+      {
+        "value": "Sotacer",
+        "count": 0
+      },
+      {
+        "value": "Soyntec",
+        "count": 0
+      },
+      {
+        "value": "SPARK",
+        "count": 0
+      },
+      {
+        "value": "SPARKLE",
+        "count": 0
+      },
+      {
+        "value": "SpeedLink",
+        "count": 0
+      },
+      {
+        "value": "SPIDER",
+        "count": 0
+      },
+      {
+        "value": "Spire",
+        "count": 0
+      },
+      {
+        "value": "Spirit of Gamer",
+        "count": 0
+      },
+      {
+        "value": "STABILO",
+        "count": 0
+      },
+      {
+        "value": "Staedtler",
+        "count": 0
+      },
+      {
+        "value": "STANLEY",
+        "count": 0
+      },
+      {
+        "value": "STAR ONE",
+        "count": 0
+      },
+      {
+        "value": "StarSat",
+        "count": 0
+      },
+      {
+        "value": "STARTRACK",
+        "count": 0
+      },
+      {
+        "value": "StarWave",
+        "count": 0
+      },
+      {
+        "value": "SteelSeries",
+        "count": 0
+      },
+      {
+        "value": "STIEL",
+        "count": 0
+      },
+      {
+        "value": "Sultan Electromenager",
+        "count": 0
+      },
+      {
+        "value": "SUNLUX",
+        "count": 0
+      },
+      {
+        "value": "SUNMA",
+        "count": 0
+      },
+      {
+        "value": "SUNNY",
+        "count": 0
+      },
+      {
+        "value": "Super Flower",
+        "count": 0
+      },
+      {
+        "value": "Superior",
+        "count": 0
+      },
+      {
+        "value": "Sveltus",
+        "count": 0
+      },
+      {
+        "value": "Swatch",
+        "count": 0
+      },
+      {
+        "value": "Sweex",
+        "count": 0
+      },
+      {
+        "value": "Swiss Line",
+        "count": 0
+      },
+      {
+        "value": "SwissCook",
+        "count": 0
+      },
+      {
+        "value": "SWISSGEAR",
+        "count": 0
+      },
+      {
+        "value": "SwissTone",
+        "count": 0
+      },
+      {
+        "value": "syinix",
+        "count": 0
+      },
+      {
+        "value": "Symantec",
+        "count": 0
+      },
+      {
+        "value": "Synology",
+        "count": 0
+      },
+      {
+        "value": "T'nB",
+        "count": 0
+      },
+      {
+        "value": "t-dagger",
+        "count": 0
+      },
+      {
+        "value": "T-WOLF",
+        "count": 0
+      },
+      {
+        "value": "TAIKESI",
+        "count": 0
+      },
+      {
+        "value": "TakeMS",
+        "count": 0
+      },
+      {
+        "value": "Target",
+        "count": 0
+      },
+      {
+        "value": "Targus",
+        "count": 0
+      },
+      {
+        "value": "Taurus",
+        "count": 0
+      },
+      {
+        "value": "TCL",
+        "count": 0
+      },
+      {
+        "value": "TDK",
+        "count": 0
+      },
+      {
+        "value": "Team Group",
+        "count": 0
+      },
+      {
+        "value": "TECH-COM",
+        "count": 0
+      },
+      {
+        "value": "Techwood",
+        "count": 0
+      },
+      {
+        "value": "TECNO",
+        "count": 0
+      },
+      {
+        "value": "TECTONIC",
+        "count": 0
+      },
+      {
+        "value": "Tefal",
+        "count": 0
+      },
+      {
+        "value": "Teka",
+        "count": 0
+      },
+      {
+        "value": "Telefunken",
+        "count": 0
+      },
+      {
+        "value": "Televes",
+        "count": 0
+      },
+      {
+        "value": "TEM",
+        "count": 0
+      },
+      {
+        "value": "TEN SPACE",
+        "count": 0
+      },
+      {
+        "value": "Tenda",
+        "count": 0
+      },
+      {
+        "value": "Tenveo",
+        "count": 0
+      },
+      {
+        "value": "Terios",
+        "count": 0
+      },
+      {
+        "value": "Terra",
+        "count": 0
+      },
+      {
+        "value": "Terraillon",
+        "count": 0
+      },
+      {
+        "value": "Tesa",
+        "count": 0
+      },
+      {
+        "value": "the g-lab",
+        "count": 0
+      },
+      {
+        "value": "Thecus",
+        "count": 0
+      },
+      {
+        "value": "Thomson",
+        "count": 0
+      },
+      {
+        "value": "thronmax",
+        "count": 0
+      },
+      {
+        "value": "Thrustmaster",
+        "count": 0
+      },
+      {
+        "value": "THST",
+        "count": 0
+      },
+      {
+        "value": "TIGER",
+        "count": 0
+      },
+      {
+        "value": "Tissot",
+        "count": 0
+      },
+      {
+        "value": "Titan",
+        "count": 0
+      },
+      {
+        "value": "Tline",
+        "count": 0
+      },
+      {
+        "value": "TMC",
+        "count": 0
+      },
+      {
+        "value": "Tokai",
+        "count": 0
+      },
+      {
+        "value": "TOORX",
+        "count": 0
+      },
+      {
+        "value": "Topmatic",
+        "count": 0
+      },
+      {
+        "value": "Tornado",
+        "count": 0
+      },
+      {
+        "value": "Tornado",
+        "count": 0
+      },
+      {
+        "value": "Toshiba",
+        "count": 0
+      },
+      {
+        "value": "Totolink",
+        "count": 0
+      },
+      {
+        "value": "TOUCH",
+        "count": 0
+      },
+      {
+        "value": "TOUCHBeauty",
+        "count": 0
+      },
+      {
+        "value": "TOURO",
+        "count": 0
+      },
+      {
+        "value": "TP-Link",
+        "count": 0
+      },
+      {
+        "value": "Transcend",
+        "count": 0
+      },
+      {
+        "value": "Traxdata",
+        "count": 0
+      },
+      {
+        "value": "TRENDnet",
+        "count": 0
+      },
+      {
+        "value": "TREQA",
+        "count": 0
+      },
+      {
+        "value": "Trevi",
+        "count": 0
+      },
+      {
+        "value": "Tristar",
+        "count": 0
+      },
+      {
+        "value": "Trohestar",
+        "count": 0
+      },
+      {
+        "value": "Trudeau",
+        "count": 0
+      },
+      {
+        "value": "Trust",
+        "count": 0
+      },
+      {
+        "value": "TSCprinters",
+        "count": 0
+      },
+      {
+        "value": "ttec",
+        "count": 0
+      },
+      {
+        "value": "Tucano",
+        "count": 0
+      },
+      {
+        "value": "tuncmatik",
+        "count": 0
+      },
+      {
+        "value": "tunisianet",
+        "count": 0
+      },
+      {
+        "value": "TVS",
+        "count": 0
+      },
+      {
+        "value": "TwinMOS",
+        "count": 0
+      },
+      {
+        "value": "TwinTech",
+        "count": 0
+      },
+      {
+        "value": "TX Mobility",
+        "count": 0
+      },
+      {
+        "value": "UEELR",
+        "count": 0
+      },
+      {
+        "value": "ufesa",
+        "count": 0
+      },
+      {
+        "value": "ugreen",
+        "count": 0
+      },
+      {
+        "value": "UHU",
+        "count": 0
+      },
+      {
+        "value": "ultimium",
+        "count": 0
+      },
+      {
+        "value": "UMIDIGI",
+        "count": 0
+      },
+      {
+        "value": "Uni-ball",
+        "count": 0
+      },
+      {
+        "value": "Uni-T",
+        "count": 0
+      },
+      {
+        "value": "UNI-TREND",
+        "count": 0
+      },
+      {
+        "value": "Unionaire",
+        "count": 0
+      },
+      {
+        "value": "Uniross",
+        "count": 0
+      },
+      {
+        "value": "UNIWA",
+        "count": 0
+      },
+      {
+        "value": "UNO",
+        "count": 0
+      },
+      {
+        "value": "UNV",
+        "count": 0
+      },
+      {
+        "value": "Upset",
+        "count": 0
+      },
+      {
+        "value": "UPTEC",
+        "count": 0
+      },
+      {
+        "value": "Urban Glide",
+        "count": 0
+      },
+      {
+        "value": "USG Gaming",
+        "count": 0
+      },
+      {
+        "value": "Valueline",
+        "count": 0
+      },
+      {
+        "value": "VANGUARD",
+        "count": 0
+      },
+      {
+        "value": "Varr",
+        "count": 0
+      },
+      {
+        "value": "VARTA",
+        "count": 0
+      },
+      {
+        "value": "VATPAN",
+        "count": 0
+      },
+      {
+        "value": "VCOM",
+        "count": 0
+      },
+      {
+        "value": "VEGA",
+        "count": 0
+      },
+      {
+        "value": "Vega by Midea",
+        "count": 0
+      },
+      {
+        "value": "VEGA-M",
+        "count": 0
+      },
+      {
+        "value": "Veho",
+        "count": 0
+      },
+      {
+        "value": "VELOCIPTOR",
+        "count": 0
+      },
+      {
+        "value": "Verbatim",
+        "count": 0
+      },
+      {
+        "value": "vermax",
+        "count": 0
+      },
+      {
+        "value": "Versus",
+        "count": 0
+      },
+      {
+        "value": "VICTOR",
+        "count": 0
+      },
+      {
+        "value": "VICTORIA",
+        "count": 0
+      },
+      {
+        "value": "VICTORINOX",
+        "count": 0
+      },
+      {
+        "value": "VIDVIE",
+        "count": 0
+      },
+      {
+        "value": "ViewSonic",
+        "count": 0
+      },
+      {
+        "value": "Vision",
+        "count": 0
+      },
+      {
+        "value": "Vivo",
+        "count": 0
+      },
+      {
+        "value": "Vogels",
+        "count": 0
+      },
+      {
+        "value": "volto",
+        "count": 0
+      },
+      {
+        "value": "Vontech",
+        "count": 0
+      },
+      {
+        "value": "VorteX",
+        "count": 0
+      },
+      {
+        "value": "VR Shinecon",
+        "count": 0
+      },
+      {
+        "value": "VSON",
+        "count": 0
+      },
+      {
+        "value": "VT",
+        "count": 0
+      },
+      {
+        "value": "Vtech",
+        "count": 0
+      },
+      {
+        "value": "Wacom",
+        "count": 0
+      },
+      {
+        "value": "WAHL",
+        "count": 0
+      },
+      {
+        "value": "WakaBox",
+        "count": 0
+      },
+      {
+        "value": "Waterman",
+        "count": 0
+      },
+      {
+        "value": "WD Green",
+        "count": 0
+      },
+      {
+        "value": "WD-40",
+        "count": 0
+      },
+      {
+        "value": "WEIFENG",
+        "count": 0
+      },
+      {
+        "value": "Western Digital",
+        "count": 0
+      },
+      {
+        "value": "Westinghouse",
+        "count": 0
+      },
+      {
+        "value": "WESTPOINT",
+        "count": 0
+      },
+      {
+        "value": "Wexler",
+        "count": 0
+      },
+      {
+        "value": "Whirlpool",
+        "count": 0
+      },
+      {
+        "value": "White Edition Tunisianet",
+        "count": 0
+      },
+      {
+        "value": "White Shark",
+        "count": 0
+      },
+      {
+        "value": "Wind Tech",
+        "count": 0
+      },
+      {
+        "value": "Wintouch",
+        "count": 0
+      },
+      {
+        "value": "WINX",
+        "count": 0
+      },
+      {
+        "value": "WiseLazer",
+        "count": 0
+      },
+      {
+        "value": "Wish",
+        "count": 0
+      },
+      {
+        "value": "wiwu",
+        "count": 0
+      },
+      {
+        "value": "WOZINSKY",
+        "count": 0
+      },
+      {
+        "value": "xavax",
+        "count": 0
+      },
+      {
+        "value": "xbox",
+        "count": 0
+      },
+      {
+        "value": "Xerox",
+        "count": 0
+      },
+      {
+        "value": "XFX",
+        "count": 0
+      },
+      {
+        "value": "Xiaomi",
+        "count": 0
+      },
+      {
+        "value": "xigmatek",
+        "count": 0
+      },
+      {
+        "value": "Xo",
+        "count": 0
+      },
+      {
+        "value": "XP Product",
+        "count": 0
+      },
+      {
+        "value": "XP-PEN",
+        "count": 0
+      },
+      {
+        "value": "XPad",
+        "count": 0
+      },
+      {
+        "value": "XPG Gaming",
+        "count": 0
+      },
+      {
+        "value": "Xqisit",
+        "count": 0
+      },
+      {
+        "value": "xtrememac",
+        "count": 0
+      },
+      {
+        "value": "XTRFY",
+        "count": 0
+      },
+      {
+        "value": "XTRIKE ME",
+        "count": 0
+      },
+      {
+        "value": "Yale",
+        "count": 0
+      },
+      {
+        "value": "yamaha",
+        "count": 0
+      },
+      {
+        "value": "YAMAMA",
+        "count": 0
+      },
+      {
+        "value": "YDD",
+        "count": 0
+      },
+      {
+        "value": "Yealink",
+        "count": 0
+      },
+      {
+        "value": "Yookie",
+        "count": 0
+      },
+      {
+        "value": "YOOSEE",
+        "count": 0
+      },
+      {
+        "value": "YOOZ",
+        "count": 0
+      },
+      {
+        "value": "Zalman",
+        "count": 0
+      },
+      {
+        "value": "Zanussi",
+        "count": 0
+      },
+      {
+        "value": "Zapp",
+        "count": 0
+      },
+      {
+        "value": "Zeblaze",
+        "count": 0
+      },
+      {
+        "value": "Zebra",
+        "count": 0
+      },
+      {
+        "value": "zebra",
+        "count": 0
+      },
+      {
+        "value": "Zeegma",
+        "count": 0
+      },
+      {
+        "value": "ZENTALITY",
+        "count": 0
+      },
+      {
+        "value": "ZEROWATT",
+        "count": 0
+      },
+      {
+        "value": "Zilan",
+        "count": 0
+      },
+      {
+        "value": "Zimota",
+        "count": 0
+      },
+      {
+        "value": "ZKTeco",
+        "count": 0
+      },
+      {
+        "value": "ZOTAC",
+        "count": 0
+      },
+      {
+        "value": "ZTE",
+        "count": 0
+      },
+      {
+        "value": "Zymm",
+        "count": 0
+      },
+      {
+        "value": "ZyXEL",
+        "count": 0
+      }
+    ],
+    "Réseau": [
+      {
+        "value": "WiFi - Bluetooth",
+        "count": 37
+      },
+      {
+        "value": "WiFi, Ethernet, Bluetooth",
+        "count": 36
+      }
+    ],
+    "Processeur": [
+      {
+        "value": "AMD Ryzen 3",
+        "count": 1
+      },
+      {
+        "value": "AMD Ryzen 5",
+        "count": 4
+      },
+      {
+        "value": "Apple M2",
+        "count": 8
+      },
+      {
+        "value": "Apple M3 Pro",
+        "count": 10
+      },
+      {
+        "value": "Intel Core i3",
+        "count": 14
+      },
+      {
+        "value": "Intel Core i5",
+        "count": 59
+      },
+      {
+        "value": "Intel Core i7",
+        "count": 43
+      },
+      {
+        "value": "Intel Core i9",
+        "count": 14
+      },
+      {
+        "value": "Intel Core Ultra 5",
+        "count": 13
+      },
+      {
+        "value": "Intel Core Ultra 7",
+        "count": 26
+      },
+      {
+        "value": "Intel Core Ultra 9",
+        "count": 1
+      },
+      {
+        "value": "Snapdragon",
+        "count": 1
+      }
+    ],
+    "Mémoire": [
+      {
+        "value": "12 Go",
+        "count": 12
+      },
+      {
+        "value": "16 Go",
+        "count": 75
+      },
+      {
+        "value": "18 Go",
+        "count": 1
+      },
+      {
+        "value": "20 Go",
+        "count": 1
+      },
+      {
+        "value": "24 Go",
+        "count": 31
+      },
+      {
+        "value": "32 Go",
+        "count": 30
+      },
+      {
+        "value": "4 Go",
+        "count": 1
+      },
+      {
+        "value": "40 Go",
+        "count": 1
+      },
+      {
+        "value": "48 Go",
+        "count": 1
+      },
+      {
+        "value": "64 Go",
+        "count": 1
+      },
+      {
+        "value": "8 Go",
+        "count": 46
+      }
+    ],
+    "Disque Dur": [
+      {
+        "value": "1 To SSD",
+        "count": 23
+      },
+      {
+        "value": "256 Go",
+        "count": 3
+      },
+      {
+        "value": "256 Go SSD",
+        "count": 24
+      },
+      {
+        "value": "512 Go SSD",
+        "count": 119
+      }
+    ],
+    "Carte Graphique": [
+      {
+        "value": "AMD Radeon",
+        "count": 5
+      },
+      {
+        "value": "Graphique Intégrée",
+        "count": 134
+      },
+      {
+        "value": "Nvidia GeForce",
+        "count": 35
+      }
+    ],
+    "Taille Ecran": [
+      {
+        "value": "13,6\"",
+        "count": 1
+      },
+      {
+        "value": "13.3\"",
+        "count": 21
+      },
+      {
+        "value": "14\"",
+        "count": 41
+      },
+      {
+        "value": "14\" - 15.6\"",
+        "count": 99
+      },
+      {
+        "value": "16\"",
+        "count": 32
+      },
+      {
+        "value": "17.3\"",
+        "count": 1
+      }
+    ],
+    "Ecran Tactile": [
+      {
+        "value": "Non",
+        "count": 166
+      },
+      {
+        "value": "Oui",
+        "count": 23
+      }
+    ],
+    "Système d'exploitation": [
+      {
+        "value": "Apple macOS Monterey",
+        "count": 9
+      },
+      {
+        "value": "FreeDos",
+        "count": 83
+      },
+      {
+        "value": "macOS Big Sur",
+        "count": 14
+      },
+      {
+        "value": "Windows 11",
+        "count": 94
+      }
+    ],
+    "Gamer": [
+      {
+        "value": "Non",
+        "count": 35
+      }
+    ],
+    "Garantie": [
+      {
+        "value": "1 an",
+        "count": 121
+      },
+      {
+        "value": "2 ans",
+        "count": 46
+      },
+      {
+        "value": "3 ans",
+        "count": 24
+      }
+    ],
+    "Couleur": [
+      {
+        "value": "Bleu",
+        "count": 13
+      },
+      {
+        "value": "Gris",
+        "count": 29
+      },
+      {
+        "value": "Noir",
+        "count": 62
+      },
+      {
+        "value": "Silver",
+        "count": 40
+      }
+    ],
+    "Taux de Rafraîchissement": [
+      {
+        "value": "120 Hz",
+        "count": 5
+      },
+      {
+        "value": "165 Hz",
+        "count": 2
+      },
+      {
+        "value": "60 Hz",
+        "count": 47
+      },
+      {
+        "value": "90 Hz",
+        "count": 11
+      }
+    ],
+    "Réf Carte graphique": [
+      {
+        "value": "AMD Radeon 660M Graphics",
+        "count": 1
+      },
+      {
+        "value": "AMD Radeon Graphics",
+        "count": 4
+      },
+      {
+        "value": "AMD Radeon intégrée",
+        "count": 1
+      },
+      {
+        "value": "Apple M2",
+        "count": 5
+      },
+      {
+        "value": "Apple M3 Pro",
+        "count": 14
+      },
+      {
+        "value": "Apple M4 Pro",
+        "count": 3
+      },
+      {
+        "value": "Intel Arc Graphics",
+        "count": 4
+      },
+      {
+        "value": "Intel Graphics",
+        "count": 4
+      },
+      {
+        "value": "Intel Iris Xe",
+        "count": 68
+      },
+      {
+        "value": "Intel Iris Xe Graphics",
+        "count": 1
+      },
+      {
+        "value": "Intel UHD Graphics",
+        "count": 42
+      },
+      {
+        "value": "NVIDIA GeForce MX550, 2 Go de mémoire GDDR6 dédiée",
+        "count": 8
+      },
+      {
+        "value": "NVIDIA GeForce MX570, 2 Go DDR6 dediée",
+        "count": 3
+      },
+      {
+        "value": "Nvidia GeForce RTX 2050, 4 Go de mémoire GDDR6 dédiée",
+        "count": 8
+      },
+      {
+        "value": "Nvidia GeForce RTX 3050, 4 Go de mémoire dédiée",
+        "count": 1
+      },
+      {
+        "value": "Nvidia GeForce RTX 3050, 6 Go De Mémoire Dédiée",
+        "count": 2
+      },
+      {
+        "value": "Nvidia GeForce RTX 4050 , 6 Go de mémoire Dédiée",
+        "count": 9
+      },
+      {
+        "value": "NVIDIA GeForce RTX 4090, 16 Go de mémoire dédiée",
+        "count": 3
+      },
+      {
+        "value": "NVIDIA T600 4 Go, 4 Go de mémoire GDDR6 dédiée",
+        "count": 1
+      }
+    ]
+  },
+  "products": [
+    {
+      "name": "Pc Portable HP 15-fd0039nk / i3-1315U / 8 Go / 256 Go SSD / Windows 11 / Bleu",
+      "price": "1049,000",
+      "imageUrl": "https://www.tunisianet.com.tn/405418-home/pc-portable-hp-15-fd0039nk-i3-1315u-8-go-256-go-ssd-windows-11-bleu.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0039nk / i3-1315U / 12 Go / 256 Go SSD / Windows 11 / Bleu",
+      "price": "1049,000",
+      "imageUrl": "https://www.tunisianet.com.tn/410265-home/pc-portable-hp-15-fd0039nk-i3-1315u-12-go-256-go-ssd-windows-11-bleu.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-FC0030NK / Ryzen 3 7320U / 8 Go / Windows 11 / Gold",
+      "price": "1059,000",
+      "imageUrl": "https://www.tunisianet.com.tn/370304-home/pc-portable-hp-15-fc0030nk-ryzen-3-7320u-8-go-windows-11-gold.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0039nk / i3-1315U / 16 Go / 256 Go SSD / Windows 11 / Bleu",
+      "price": "1098,000",
+      "imageUrl": "https://www.tunisianet.com.tn/410270-home/pc-portable-hp-15-fd0039nk-i3-1315u-16-go-256-go-ssd-windows-11-bleu.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0039nk / i3-1315U / 24 Go / 256 Go SSD / Windows 11 / Bleu",
+      "price": "1138,000",
+      "imageUrl": "https://www.tunisianet.com.tn/410281-home/pc-portable-hp-15-fd0039nk-i3-1315u-24-go-256-go-ssd-windows-11-bleu.jpg"
+    },
+    {
+      "name": "Pc Portable Lenovo V15 G4 IRU / i3-1315U / 8 Go / 512 Go SSD / Noir",
+      "price": "1199,000",
+      "imageUrl": "https://www.tunisianet.com.tn/412348-home/pc-portable-lenovo-v15-g4-iru-i3-1315u-8-go-512-go-ssd-noir.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0051nk / i3-N305 / 16 Go / 512 Go SSD / Gold / Windows 11 Pro",
+      "price": "1211,000",
+      "imageUrl": "https://www.tunisianet.com.tn/373326-home/pc-portable-hp-15-fd0051nk-i3-n305-16-go-512-go-ssd-gold-windows-11-pro.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0051nk / i3-N305 / 16 Go / 512 Go SSD / Gold / Windows 11 Pro Avec Sacoche Offerte",
+      "price": "1221,000",
+      "imageUrl": "https://www.tunisianet.com.tn/405063-home/pc-portable-hp-15-fd0051nk-i3-n305-16-go-512-go-ssd-gold-windows-11-pro-avec-sacoche-offerte.jpg"
+    },
+    {
+      "name": "Pc Portable Lenovo V15 G4 IRU / i3-1315U / 16 Go / 512 Go SSD / Noir",
+      "price": "1249,000",
+      "imageUrl": "https://www.tunisianet.com.tn/413174-home/pc-portable-lenovo-v15-g4-iru-i3-1315u-16-go-512-go-ssd-noir.jpg"
+    },
+    {
+      "name": "Pc Portable Lenovo V15 G4 IRU / i3-1315U / 8 Go / 512 Go SSD / Noir Avec Sacoche Lenovo Offerte",
+      "price": "1265,000",
+      "imageUrl": "https://www.tunisianet.com.tn/405188-home/pc-portable-lenovo-v15-g4-iru-i3-1315u-8-go-512-go-ssd-noir-avec-sacoche-lenovo-offerte.jpg"
+    },
+    {
+      "name": "Pc Portable Lenovo V15 G4 IRU / i3-1315U / 24 Go / 512 Go SSD / Noir",
+      "price": "1289,000",
+      "imageUrl": "https://www.tunisianet.com.tn/413179-home/pc-portable-lenovo-v15-g4-iru-i3-1315u-24-go-512-go-ssd-noir.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0051nk / i3-N305 / 32 Go / 512 Go SSD / Gold / Windows 11 Pro",
+      "price": "1311,000",
+      "imageUrl": "https://www.tunisianet.com.tn/373378-home/pc-portable-hp-15-fd0051nk-i3-n305-32-go-512-go-ssd-gold-windows-11-pro.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0053nk / i3-N305 / 32 Go / 512 Go SSD / WINDOWS 11 / Silver",
+      "price": "1345,000",
+      "imageUrl": "https://www.tunisianet.com.tn/373702-home/pc-portable-hp-15-fd0053nk-i3-n305-32-go-512-go-ssd-windows-11-silver.jpg"
+    },
+    {
+      "name": "Pc Portable HP Laptop 15-fc0003nk / Ryzen 5 7520U / 8 Go / 512 Go SSD / Windows 11 / Argent",
+      "price": "1519,000",
+      "imageUrl": "https://www.tunisianet.com.tn/404329-home/pc-portable-hp-laptop-15-fc0003nk-ryzen-5-7520u-8-go-512-go-ssd-windows-11-argent.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0267nk / i5-1334U / 12 Go / 256 Go SSD / Gris",
+      "price": "1529,000",
+      "imageUrl": "https://www.tunisianet.com.tn/388239-home/pc-portable-hp-15-fd0267nk-i5-1334u-12-go-256-go-ssd-gris.jpg"
+    },
+    {
+      "name": "Pc Portable Lenovo ThinkBook 16 G6 en IRL / i3-1315U / 24 Go DDR5 / 512 Go SSD / Gris",
+      "price": "1599,000",
+      "imageUrl": "https://www.tunisianet.com.tn/398207-home/pc-portable-lenovo-thinkbook-16-g6-en-irl-i3-1315u-24-go-ddr5-512-go-ssd-gris.jpg"
+    },
+    {
+      "name": "PC Portable Asus ExpertBook B1 B1500CE / i5 11è Gén / 8 Go / 512 Go SSD / Noir",
+      "price": "1599,000",
+      "imageUrl": "https://www.tunisianet.com.tn/340104-home/pc-portable-asus-expertbook-b1-b1500ce-i5-11e-gen-8-go-512-go-ssd-noir.jpg"
+    },
+    {
+      "name": "Pc Portable Asus VivoBook 15 X1502VA / i5-13500H / 8 Go / Windows 11 / Silver",
+      "price": "1649,000",
+      "imageUrl": "https://www.tunisianet.com.tn/360575-home/pc-portable-asus-vivobook-15-x1502va-i5-13500h-8-go-windows-11-silver.jpg"
+    },
+    {
+      "name": "Pc Portable Asus VivoBook 15 X1502VA / i5-13500H / 12 Go / Windows 11 / Silver",
+      "price": "1669,000",
+      "imageUrl": "https://www.tunisianet.com.tn/383854-home/pc-portable-asus-vivobook-15-x1502va-i5-13500h-12-go-windows-11-silver.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0093nk / i5-1334U / 12 Go / 512 Go SSD /  Windows 11 PRO /Gold",
+      "price": "1689,000",
+      "imageUrl": "https://www.tunisianet.com.tn/378321-home/pc-portable-hp-15-fd0093nk-i5-1334u-12-go-512-go-ssd-windows-11-gold-.jpg"
+    },
+    {
+      "name": "Pc Portable Asus VivoBook 15 X1502VA / i5-13500H / 16 Go / Windows 11 / Silver",
+      "price": "1689,000",
+      "imageUrl": "https://www.tunisianet.com.tn/383856-home/pc-portable-asus-vivobook-15-x1502va-i5-13500h-16-go-windows-11-silver.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0095nk / i5-1334U / 12 Go / 512 Go SSD / Windows 11 Pro / Silver",
+      "price": "1689,000",
+      "imageUrl": "https://www.tunisianet.com.tn/379029-home/pc-portable-hp-15-fd0095nk-i5-1334u-12-go-512-go-ssd-windows-11-pro-silver.jpg"
+    },
+    {
+      "name": "Pc Portable HP 15-fd0095nk / i5-1334U / 16 Go / 512 Go SSD / Windows 11 Pro / Silver",
+      "price": "1745,000",
+      "imageUrl": "https://www.tunisianet.com.tn/379034-home/pc-portable-hp-15-fd0095nk-i5-1334u-16-go-512-go-ssd-windows-11-pro-silver.jpg"
+    },
+    {
+      "name": "Pc Portable HP 255 G10 / Ryzen 5 7530U / 4 Go / 512 Go SSD / Noir Avec Sacoche HP 15.6\" Offerte",
+      "price": "1769,000",
+      "imageUrl": "https://www.tunisianet.com.tn/391928-home/pc-portable-hp-255-g10-ryzen-5-7530u-4-go-512-go-ssd-noir-avec-sacoche-hp-156-offerte.jpg"
+    }
+  ]
+}

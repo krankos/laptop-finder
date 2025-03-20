@@ -1,8 +1,10 @@
 import Link from 'next/link';
-import React, { memo } from 'react';
+import React, { memo, Children } from 'react';
 import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { CodeBlock } from './code-block';
+import Image from "next/image";
+import { cn } from "@/lib/utils";
 
 const components: Partial<Components> = {
   // @ts-expect-error
@@ -15,18 +17,48 @@ const components: Partial<Components> = {
       </ol>
     );
   },
-  li: ({ node, children, ...props }) => {
+  li: ({ children, className, ...props }) => {
+    // Simple check for recommendation list items (often longer items with images)
+    const content = Children.toArray(children);
+    const isRecommendation = content.length > 3; // Recommendation items tend to be longer
+
     return (
-      <li className="py-1" {...props}>
+      <li
+        className={cn(
+          "py-1",
+          isRecommendation &&
+            "pb-4 mb-3 border-b border-border/50 last:border-b-0",
+          className
+        )}
+        {...props}
+      >
         {children}
       </li>
     );
   },
   ul: ({ node, children, ...props }) => {
     return (
-      <ul className="list-decimal list-outside ml-4" {...props}>
+      <ul className="list-disc list-outside ml-4" {...props}>
         {children}
       </ul>
+    );
+  },
+  img: ({ src, alt, width, height, ...props }) => {
+    if (!src) return null;
+
+    // For external images like TunisiaNet product images
+    return (
+      <div className="relative my-2 w-[180px] h-[180px] rounded-lg border border-border/70 overflow-hidden hover:shadow-md transition-all duration-200">
+        <Image
+          src={src}
+          alt={alt || "Product image"}
+          fill
+          sizes="180px"
+          className="object-contain p-2"
+          quality={80}
+          {...props}
+        />
+      </div>
     );
   },
   strong: ({ node, children, ...props }) => {

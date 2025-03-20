@@ -19,8 +19,7 @@ import { MessageEditor } from './message-editor';
 import { DocumentPreview } from './document-preview';
 import { MessageReasoning } from './message-reasoning';
 import { UseChatHelpers } from '@ai-sdk/react';
-import { ProductDetailSkeleton, ProductGridSkeleton, ProductSearchSkeleton } from './product-skeleton';
-import { ProductGrid, ProductDetail } from './product-display';
+import { ProductToolResult, ProductToolSkeleton } from './product-tool-result';
 
 const PurePreviewMessage = ({
   chatId,
@@ -160,33 +159,16 @@ const PurePreviewMessage = ({
                   const productDetailTools = ['getProductDetails'];
 
                   return (
-                    <div
-                      key={toolCallId}
-                      className={cx({
-                        skeleton: ['getWeather', ...productSearchTools, ...productDetailTools].includes(toolName),
-                      })}
-                    >
-                      {toolName === 'getWeather' ? (
-                        <Weather />
-                      ) : toolName === 'createDocument' ? (
-                        <DocumentPreview isReadonly={isReadonly} args={args} />
-                      ) : toolName === 'updateDocument' ? (
-                        <DocumentToolCall
-                          type="update"
-                          args={args}
-                          isReadonly={isReadonly}
-                        />
-                      ) : toolName === 'requestSuggestions' ? (
-                        <DocumentToolCall
-                          type="request-suggestions"
-                          args={args}
-                          isReadonly={isReadonly}
-                        />
-                      ) : productSearchTools.includes(toolName) ? (
-                        <ProductSearchSkeleton />
-                      ) : productDetailTools.includes(toolName) ? (
-                        <ProductDetailSkeleton />
-                      ) : null}
+                    <div key={toolCallId}>
+                      {productSearchTools.includes(toolName) || productDetailTools.includes(toolName) ? (
+                        // No skeleton class for product tools, they have their own styling
+                        <ProductToolSkeleton toolName={toolName} />
+                      ) : (
+                        // Keep the skeleton class for other tools
+                        <div className="skeleton p-4 rounded-lg w-full max-w-md">
+                          <div className="animate-pulse">Using {toolName}</div>
+                        </div>
+                      )}
                     </div>
                   );
                 }
@@ -195,6 +177,24 @@ const PurePreviewMessage = ({
                   const { result } = toolInvocation;
                   const productDetailTools = ['getProductDetails'];
                   const productSearchTools = ['searchProducts', 'getAllProducts', 'applyFilters', 'fetchCategoryFilters'];
+
+                  // Check if we should show any result for product tools
+                  const shouldShowProductResult = () => {
+                    if (!result) return false;
+                    
+                    // For product search tools, only show if there are products or meaningful data
+                    if (productSearchTools.includes(toolName)) {
+                      const totalProducts = result?.totalProducts || (Array.isArray(result) ? result.length : 0);
+                      return totalProducts > 0 || (typeof result === 'object' && Object.keys(result).length > 0);
+                    }
+                    
+                    // For product detail tools, only show if there's a valid product
+                    if (productDetailTools.includes(toolName)) {
+                      return result && typeof result === 'object' && Object.keys(result).length > 0;
+                    }
+                    
+                    return true;
+                  };
 
                   return (
                     <div key={toolCallId}>
@@ -217,24 +217,9 @@ const PurePreviewMessage = ({
                           result={result}
                           isReadonly={isReadonly}
                         />
-                      ) : productDetailTools.includes(toolName) ? (
-                        <ProductDetail product={result} />
-                      ) : productSearchTools.includes(toolName) ? (
-                        <>
-                          {result.totalProducts && (
-                            <div className="mb-4 text-sm flex justify-between items-center">
-                              <span>Found {result.totalProducts} products</span>
-                              {result.totalProducts > 5 && (
-                                <span className="text-xs text-muted-foreground">Showing 5 of {result.totalProducts} products</span>
-                              )}
-                            </div>
-                          )}
-                          <ProductGrid 
-                            products={Array.isArray(result.products) ? result.products.slice(0, 5) : 
-                                     Array.isArray(result) ? result.slice(0, 5) : []}
-                            showFilters={toolName === 'applyFilters' || (result.filters && Object.keys(result.filters).length > 0)}
-                          />
-                        </>
+                      ) : (productDetailTools.includes(toolName) || productSearchTools.includes(toolName)) ? (
+                        // We'll let the component decide if it shows anything
+                        <ProductToolResult result={result} toolName={toolName} />
                       ) : (
                         <pre>{JSON.stringify(result, null, 2)}</pre>
                       )}

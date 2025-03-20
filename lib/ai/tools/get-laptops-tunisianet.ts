@@ -19,6 +19,13 @@ const fetchConfig = {
   },
 };
 
+// Add this mapping at the top of the file
+const LAPTOP_CATEGORY_URLS = {
+  consumer: "https://www.tunisianet.com.tn/301-pc-portable-tunisie",
+  gaming: "https://www.tunisianet.com.tn/681-pc-portable-gamer",
+  pro: "https://www.tunisianet.com.tn/703-pc-portable-pro"
+};
+
 /**
  * Fetch with retry functionality using native fetch
  */
@@ -278,16 +285,16 @@ export const getFilters = tool({
 
 // Fix fetchCategoryFilters to return an object with simpler structure
 export const fetchCategoryFilters = tool({
-  description: "Fetch available filters for a product category",
+  description: "Fetch available filters for a laptop category",
   parameters: z.object({
-    categoryUrl: z
-      .string()
-      .optional()
-      .default("https://www.tunisianet.com.tn/703-pc-portable-pro")
-      .describe("URL of the product category"),
+    laptopType: z
+      .enum(["consumer", "gaming", "pro"])
+      .default("consumer")
+      .describe("Type of laptop category to fetch filters for (consumer, gaming, or pro)"),
   }),
-  execute: async ({ categoryUrl }) => {
-    console.log(`[TOOL] fetchCategoryFilters called for category: ${categoryUrl}`);
+  execute: async ({ laptopType }) => {
+    const categoryUrl = LAPTOP_CATEGORY_URLS[laptopType];
+    console.log(`[TOOL] fetchCategoryFilters called for ${laptopType} laptops: ${categoryUrl}`);
     console.log(`[TOOL] Fetching filters from category page`);
     const pageData = await scrapeProducts(categoryUrl, {});
     
@@ -304,31 +311,46 @@ export const fetchCategoryFilters = tool({
     
     const filterCategories = Object.keys(validFilters).length;
     console.log(`[TOOL] fetchCategoryFilters found ${filterCategories} filter categories with products > 0`);
-    console.log("filters", validFilters);
     
-    // Return directly without JSON.stringify
-    return validFilters;
+    // Include the category URL in the response so it can be used by other tools
+    return {
+      categoryUrl,
+      laptopType,
+      filters: validFilters
+    };
   },
 });
 
 export const applyFilters = tool({
-  description: "Apply filters to search results or category page",
+  description: "Apply filters to a laptop category",
   parameters: z.object({
-    baseUrl: z.string().describe("URL of search results or category page"),
+    laptopType: z
+      .enum(["consumer", "gaming", "pro"])
+      .optional()
+      .default("consumer")
+      .describe("Type of laptop category (consumer, gaming, or pro)"),
     filters: z
       .string()
       .describe("JSON string of key-value pairs for filters (e.g., '{\"Prix\": \"1000-2000\"}')"),
+    order: z
+      .enum([
+        "product.price.desc", 
+        "product.price.asc", 
+      ])
+      .optional()
+      .default("product.price.desc")
+      .describe("Sort order for results (defaults to price high to low)"),
     allPages: z
       .boolean()
       .optional()
       .default(false)
       .describe("Whether to fetch all pages"),
   }),
-  execute: async ({ baseUrl, filters, allPages }) => {
-    console.log(`[TOOL] applyFilters called with:`);
-    console.log(`[TOOL] - baseUrl: ${baseUrl}`);
+  execute: async ({ laptopType, filters, order, allPages }) => {
+    const baseUrl = LAPTOP_CATEGORY_URLS[laptopType];
+    console.log(`[TOOL] applyFilters called for ${laptopType} laptops: ${baseUrl}`);
     console.log(`[TOOL] - filters: ${filters}`);
-    console.log(`[TOOL] - allPages: ${allPages}`);
+    console.log(`[TOOL] - order: ${order}`);
     
     // Parse the filters string into an object
     let processedFilters;
@@ -342,13 +364,22 @@ export const applyFilters = tool({
     const formattedFilters = formatFiltersForUrl(processedFilters);
     console.log(`[TOOL] Formatted filters: ${JSON.stringify(formattedFilters)}`);
 
+    // Add order parameter to filters
+    if (order) {
+      formattedFilters.order = order;
+    }
+
     if (!allPages) {
       console.log(`[TOOL] Fetching first page only with applied filters`);
       const results = await scrapeProducts(baseUrl, formattedFilters);
       console.log(
         `[TOOL] applyFilters found ${results?.products?.length || 0} products`
       );
-      return results;
+      return {
+        ...results,
+        categoryUrl: baseUrl,
+        laptopType
+      };
     } else {
       console.log(`[TOOL] Fetching all pages with applied filters`);
       // Get first page
@@ -360,7 +391,11 @@ export const applyFilters = tool({
         firstPageData.totalPages <= 1
       ) {
         console.log(`[TOOL] Only one page found, returning results`);
-        return firstPageData;
+        return {
+          ...firstPageData,
+          categoryUrl: baseUrl,
+          laptopType
+        };
       }
 
       // Store combined results
@@ -399,7 +434,11 @@ export const applyFilters = tool({
       console.log(
         `[TOOL] applyFilters completed with ${allProducts.products.length} total products across all pages`
       );
-      return allProducts;
+      return {
+        ...allProducts,
+        categoryUrl: baseUrl,
+        laptopType
+      };
     }
   },
 });
@@ -454,22 +493,21 @@ export const getProductDetails = tool({
 });
 
 export const getAllProducts = tool({
-  description: "Get all products from a category",
+  description: "Get all products from a laptop category",
   parameters: z.object({
-    categoryUrl: z
-      .string()
-      .optional()
-      .default("https://www.tunisianet.com.tn/703-pc-portable-pro")
-      .describe("URL of the product category"),
+    laptopType: z
+      .enum(["consumer", "gaming", "pro"])
+      .default("consumer")
+      .describe("Type of laptop category (consumer, gaming, or pro)"),
     allPages: z
       .boolean()
       .optional()
       .default(false)
       .describe("Whether to fetch all pages"),
   }),
-  execute: async ({ categoryUrl, allPages }) => {
-    console.log(`[TOOL] getAllProducts called with:`);
-    console.log(`[TOOL] - categoryUrl: ${categoryUrl}`);
+  execute: async ({ laptopType, allPages }) => {
+    const categoryUrl = LAPTOP_CATEGORY_URLS[laptopType];
+    console.log(`[TOOL] getAllProducts called for ${laptopType} laptops: ${categoryUrl}`);
     console.log(`[TOOL] - allPages: ${allPages}`);
     
     // Fully self-contained implementation that doesn't rely on applyFilters tool
@@ -479,7 +517,11 @@ export const getAllProducts = tool({
       console.log(`[TOOL] getAllProducts found ${results?.products?.length || 0} products on first page`);
       console.log(`[TOOL] Total products in category: ${results?.totalProducts || 'unknown'}`);
       console.log(`[TOOL] Total pages in category: ${results?.totalPages || 1}`);
-      return results;
+      return {
+        ...results,
+        categoryUrl,
+        laptopType
+      };
     } else {
       console.log(`[TOOL] Fetching all pages of products`);
       // Get first page
@@ -491,7 +533,11 @@ export const getAllProducts = tool({
         firstPageData.totalPages <= 1
       ) {
         console.log(`[TOOL] Only one page found, returning results`);
-        return firstPageData;
+        return {
+          ...firstPageData,
+          categoryUrl,
+          laptopType
+        };
       }
 
       // Store combined results
@@ -521,7 +567,11 @@ export const getAllProducts = tool({
       }
 
       console.log(`[TOOL] getAllProducts completed with ${allProducts.products.length} total products across all pages`);
-      return allProducts;
+      return {
+        ...allProducts,
+        categoryUrl,
+        laptopType
+      };
     }
   },
 });

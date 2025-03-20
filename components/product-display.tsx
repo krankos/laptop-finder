@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { cn } from '@/lib/utils';
 
 // Helper to extract just the laptop name from the full product name
-function extractLaptopName(fullName) {
+function extractLaptopName(fullName: string) {
   if (!fullName) return '';
   // The laptop name is typically before the first slash
   return fullName.split('/')[0].trim();

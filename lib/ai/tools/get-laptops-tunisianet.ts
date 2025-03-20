@@ -1,7 +1,7 @@
 import { tool } from "ai";
 import { z } from "zod";
 import * as cheerio from "cheerio"
-import { buildFilterUrl } from "./urlBuilder.ts";
+import { buildFilterUrl } from "./urlBuilder";
 
 // Retry configuration for fetch
 const MAX_RETRIES = 3;
@@ -29,7 +29,7 @@ const LAPTOP_CATEGORY_URLS = {
 /**
  * Fetch with retry functionality using native fetch
  */
-async function fetchWithRetry(url, options = {}, retries = 0) {
+async function fetchWithRetry(url: string | URL | Request, options: { headers?: Record<string, string> } = {}, retries = 0) {
   try {
     const response = await fetch(url, {
       ...options,
@@ -58,7 +58,7 @@ async function fetchWithRetry(url, options = {}, retries = 0) {
 /**
  * Scrapes product data
  */
-async function scrapeProducts(baseUrl, filterParams = {}) {
+async function scrapeProducts(baseUrl: string, filterParams = {}) {
   try {
     // Build URL with filters
     const url = buildFilterUrl(baseUrl, filterParams);
@@ -72,7 +72,12 @@ async function scrapeProducts(baseUrl, filterParams = {}) {
     const $ = cheerio.load(html);
 
     // Data structure
-    const scraperData = {
+    const scraperData: {
+      totalProducts: number;
+      totalPages: number;
+      filters: { [key: string]: Array<{ value: string; count: number }> };
+      products: Array<{ name: string; price: string; imageUrl?: string; productUrl?: string }>;
+    } = {
       totalProducts: 0,
       totalPages: 0,
       filters: {},
@@ -101,7 +106,7 @@ async function scrapeProducts(baseUrl, filterParams = {}) {
     $(".af_filter").each((index, filterElement) => {
       const filterTitle = $(filterElement).find(".af_subtitle").text().trim();
       if (filterTitle) {
-        const filterValues = [];
+        const filterValues: { value: string; count: number; }[] = [];
 
         $(filterElement)
           .find(".af_filter_content li")
@@ -162,7 +167,7 @@ async function scrapeProducts(baseUrl, filterParams = {}) {
     console.log(`Found ${scraperData.products.length} products on this page`);
     return scraperData;
   } catch (error) {
-    console.error("Error scraping products:", error.message);
+    console.error("Error scraping products:", error instanceof Error ? error.message : String(error));
     return null;
   }
 }
@@ -170,7 +175,7 @@ async function scrapeProducts(baseUrl, filterParams = {}) {
 /**
  * Helper function to build a search URL
  */
-function buildSearchUrl(query, { orderby = "price", orderway = "asc" } = {}) {
+function buildSearchUrl(query: string, { orderby = "price", orderway = "asc" } = {}) {
   const url = new URL("https://www.tunisianet.com.tn/recherche");
 
   url.searchParams.append("controller", "search");
@@ -185,8 +190,8 @@ function buildSearchUrl(query, { orderby = "price", orderway = "asc" } = {}) {
 /**
  * Helper function to format filters for URL
  */
-function formatFiltersForUrl(filters) {
-  const formattedFilters = {};
+function formatFiltersForUrl(filters: { [s: string]: unknown; } | ArrayLike<unknown>) {
+  const formattedFilters: { [key: string]: unknown } = {};
 
   Object.entries(filters).forEach(([key, value]) => {
     // Format the key
@@ -270,9 +275,9 @@ export const getFilters = tool({
     }
 
     // Return only filters with product counts > 0
-    const validFilters = {};
+    const validFilters: Record<string, Array<{ value: string; count: number }>> = {};
     Object.entries(searchResults.filters).forEach(([category, values]) => {
-      const validValues = values.filter((item) => item.count > 0);
+      const validValues = (values as Array<{ value: string; count: number }>).filter((item) => item.count > 0);
       if (validValues.length > 0) {
         validFilters[category] = validValues;
       }
@@ -299,7 +304,7 @@ export const fetchCategoryFilters = tool({
     const pageData = await scrapeProducts(categoryUrl, {});
     
     // Filter out categories with count 0
-    const validFilters = {};
+    const validFilters: Record<string, Array<{ value: string; count: number }>> = {};
     if (pageData && pageData.filters) {
       Object.entries(pageData.filters).forEach(([category, values]) => {
         const validValues = values.filter((item) => item.count > 0);
@@ -357,7 +362,8 @@ export const applyFilters = tool({
     try {
       processedFilters = JSON.parse(filters);
     } catch (e) {
-      console.error(`[TOOL] Error parsing filters string: ${e.message}`);
+      const errorMessage = e instanceof Error ? e.message : String(e);
+      console.error(`[TOOL] Error parsing filters string: ${errorMessage}`);
       return { error: "Invalid filter format" };
     }
     
@@ -462,8 +468,8 @@ export const getProductDetails = tool({
         name: $("h1.product-title").text().trim(),
         price: $(".current-price").text().trim(),
         description: $("#description").text().trim(),
-        images: [],
-        specifications: {},
+        images: [] as string[],
+        specifications: {} as Record<string, string>,
         availability: $(".product-availability").text().trim(),
       };
 
@@ -486,7 +492,7 @@ export const getProductDetails = tool({
       console.log(`[TOOL] Found ${Object.keys(productDetails.specifications).length} specifications`);
       return productDetails;
     } catch (error) {
-      console.error(`[TOOL] Error fetching product details: ${error.message}`);
+      console.error(`[TOOL] Error fetching product details: ${error instanceof Error ? error.message : String(error)}`);
       return null;
     }
   },

@@ -77,7 +77,7 @@ export function ProductSearchResult({
           rel="noopener noreferrer" 
           className="text-xs text-blue-600 hover:underline mt-0.5 inline-block"
         >
-          Browse on TunisiaNet →
+          Browse on  →
         </a>
       </div>
     </div>

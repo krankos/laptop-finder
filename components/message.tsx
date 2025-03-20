@@ -113,7 +113,7 @@ const PurePreviewMessage = ({
                               <PencilEditIcon />
                             </Button>
                           </TooltipTrigger>
-                          <TooltipContent>Edit message</TooltipContent>
+                          <TooltipContent>Modifier message</TooltipContent>
                         </Tooltip>
                       )}
 

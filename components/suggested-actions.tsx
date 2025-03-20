@@ -16,24 +16,24 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Trouve-moi un ordinateur',
+      label: 'avec un budget de 2000DT',
+      action: 'Je cherche un bon ordinateur portable avec un budget de 2000DT pour une utilisation quotidienne',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'Recommande un PC gamer',
+      label: 'avec de bonnes performances',
+      action: 'Quel ordinateur portable gaming me recommandes-tu pour environ 3500DT?',
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'PC pour le travail',
+      label: 'pour usage professionnel',
+      action: 'J\'ai besoin d\'un ordinateur portable fiable pour le travail avec une bonne autonomie autour de 2800DT',
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Recherche PC léger',
+      label: 'avec longue autonomie',
+      action: 'Quels sont les meilleurs ordinateurs portables légers avec une bonne autonomie sous 2500DT?',
     },
   ];
 

@@ -35,7 +35,7 @@ export function ProductToolResult({ result, toolName, loading = false }: Product
       <div className="flex items-center gap-3 p-3 rounded-lg border border-border/50 bg-background w-full max-w-[400px]">
         <Laptop className="text-blue-500 shrink-0" size={20} />
         <div className="flex-1">
-          <p className="text-sm font-medium">Product details retrieved</p>
+          <p className="text-sm font-medium">Détails du produit récupérés</p>
           <ProductLink url={productUrl} />
         </div>
       </div>
@@ -59,8 +59,8 @@ export function ProductToolResult({ result, toolName, loading = false }: Product
       <div className="flex-1">
         <p className="text-sm font-medium">
           {totalProducts > 0 
-            ? `Found ${totalProducts} laptop${totalProducts !== 1 ? 's' : ''}`
-            : "No laptops match your criteria"}
+            ? `${totalProducts} ordinateur${totalProducts !== 1 ? 's' : ''} trouvé${totalProducts !== 1 ? 's' : ''}`
+            : "Aucun ordinateur ne correspond à vos critères"}
         </p>
         
         <ProductLink url={result?.categoryUrl || laptopBaseUrl} />
@@ -78,7 +78,7 @@ function ProductLink({ url }: { url: string }) {
       rel="noopener noreferrer" 
       className="text-xs text-blue-600 hover:underline mt-0.5 inline-block"
     >
-      Browse on TunisiaNet →
+      Voir sur Tunisianet →
     </a>
   );
 }
@@ -86,22 +86,22 @@ function ProductLink({ url }: { url: string }) {
 // Skeleton that adapts to the tool type
 export function ProductToolSkeleton({ toolName }: { toolName?: string }) {
   // Default values
-  let loadingMessage = "Looking for products...";
-  let secondaryMessage = "This might take a moment";
+  let loadingMessage = "Recherche de produits...";
+  let secondaryMessage = "Cela peut prendre un moment";
   let icon = <Search className="animate-pulse text-blue-500 shrink-0" size={20} />;
   
   // Set specific messages based on tool type
   if (toolName === 'fetchCategoryFilters') {
-    loadingMessage = "Finding available filters...";
-    secondaryMessage = "Loading brands, specs, and price ranges";
+    loadingMessage = "Recherche des filtres disponibles...";
+    secondaryMessage = "Chargement des marques, spécifications et gammes de prix";
     icon = <Filter className="animate-pulse text-blue-500 shrink-0" size={20} />;
   } else if (toolName === 'applyFilters') {
-    loadingMessage = "Applying your filters...";
-    secondaryMessage = "Finding laptops that match your criteria";
+    loadingMessage = "Application de vos filtres...";
+    secondaryMessage = "Recherche d'ordinateurs correspondant à vos critères";
     icon = <Filter className="animate-pulse text-blue-500 shrink-0" size={20} />;
   } else if (toolName === 'getProductDetails') {
-    loadingMessage = "Getting product details...";
-    secondaryMessage = "Retrieving specifications and pricing";
+    loadingMessage = "Récupération des détails du produit...";
+    secondaryMessage = "Chargement des spécifications et des prix";
     icon = <Laptop className="animate-pulse text-blue-500 shrink-0" size={20} />;
   }
 

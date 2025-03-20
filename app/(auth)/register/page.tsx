@@ -39,7 +39,7 @@ export default function Page() {
       setIsSuccessful(true);
       router.refresh();
     }
-  }, [state]);
+  }, [router, state]);
 
   const handleSubmit = (formData: FormData) => {
     setEmail(formData.get('email') as string);
@@ -56,7 +56,7 @@ export default function Page() {
           </p>
         </div>
         <AuthForm action={handleSubmit} defaultEmail={email}>
-          <SubmitButton isSuccessful={isSuccessful}>S'inscrire</SubmitButton>
+          <SubmitButton isSuccessful={isSuccessful}>S&apos;inscrire</SubmitButton>
           <p className="text-center text-sm text-gray-600 mt-4 dark:text-zinc-400">
             {'Vous avez déjà un compte ? '}
             <Link

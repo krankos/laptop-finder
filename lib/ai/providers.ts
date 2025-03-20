@@ -23,6 +23,7 @@ export const myProvider = isTestEnvironment
     })
   : customProvider({
       languageModels: {
+        'chat-model':openai('gpt-4o-mini'),
         'chat-model-small': openai('gpt-4o-mini'),
         'title-model': openai('gpt-4-turbo'),
         'artifact-model': openai('gpt-4o-mini'),

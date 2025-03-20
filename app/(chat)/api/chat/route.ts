@@ -168,7 +168,8 @@ export async function POST(request: Request) {
           sendReasoning: true,
         });
       },
-      onError: () => {
+      onError: (error:any) => {
+        console.error("error", error)
         return 'Oops, an error occured!';
       },
     });

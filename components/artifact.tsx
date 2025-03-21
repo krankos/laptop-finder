@@ -315,7 +315,7 @@ function PureArtifact({
                   status={status}
                   votes={votes}
                   messages={messages}
-                  setMessages={setMessages}
+                  setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
                   reload={reload}
                   isReadonly={isReadonly}
                   artifactStatus={artifact.status}
@@ -334,7 +334,7 @@ function PureArtifact({
                     messages={messages}
                     append={append}
                     className="bg-background dark:bg-muted"
-                    setMessages={setMessages}
+                    setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
                   />
                 </form>
               </div>
@@ -475,7 +475,7 @@ function PureArtifact({
                     append={append}
                     status={status}
                     stop={stop}
-                    setMessages={setMessages}
+                    setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
                     artifactKind={artifact.kind}
                   />
                 )}

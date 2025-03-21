@@ -29,7 +29,7 @@ import { myProvider } from '@/lib/ai/providers';
 import { AISDKExporter } from 'langsmith/vercel';
 // export const maxDuration = 60;
 
-export const runtime ='edge';
+// export const runtime ='edge';
 
 export async function POST(request: Request) {
   try {

@@ -1,4 +1,4 @@
-import type { Attachment, UIMessage } from 'ai';
+import type { Attachment, UIMessage, Message } from 'ai';
 import { formatDistance } from 'date-fns';
 import { AnimatePresence, motion } from 'framer-motion';
 import {
@@ -315,7 +315,7 @@ function PureArtifact({
                   status={status}
                   votes={votes}
                   messages={messages}
-                  setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
+                  setMessages={setMessages as Dispatch<SetStateAction<Message[]>>}
                   reload={reload}
                   isReadonly={isReadonly}
                   artifactStatus={artifact.status}
@@ -334,7 +334,7 @@ function PureArtifact({
                     messages={messages}
                     append={append}
                     className="bg-background dark:bg-muted"
-                    setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
+                    setMessages={setMessages as Dispatch<SetStateAction<Message[]>>}
                   />
                 </form>
               </div>
@@ -475,7 +475,7 @@ function PureArtifact({
                     append={append}
                     status={status}
                     stop={stop}
-                    setMessages={setMessages as Dispatch<SetStateAction<UIMessage[]>>}
+                    setMessages={setMessages as Dispatch<SetStateAction<Message[]>>}
                     artifactKind={artifact.kind}
                   />
                 )}
